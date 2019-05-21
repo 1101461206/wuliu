@@ -1,0 +1,31 @@
+---------------------------------------------------------------
+[ 2019-03-10T00:06:56+08:00 ] 216.218.206.67 GET 118.24.8.254/
+[运行时间：0.002443s] [吞吐率：409.36req/s] [内存消耗：343.36kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-10T14:10:21+08:00 ] 47.101.130.15 GET 118.24.8.254/api
+[运行时间：0.308347s] [吞吐率：3.24req/s] [内存消耗：342.57kb] [文件加载：68]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 Windows',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)

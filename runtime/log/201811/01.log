@@ -1,0 +1,2576 @@
+---------------------------------------------------------------
+[ 2018-11-01T09:46:47+08:00 ] ::1 GET wuliu/login
+[运行时间：0.051383s] [吞吐率：19.46req/s] [内存消耗：1,656.87kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:46:57+08:00 ] ::1 GET wuliu/login/index
+[运行时间：0.031374s] [吞吐率：31.87req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:47:20+08:00 ] ::1 GET wuliu/
+[运行时间：0.030226s] [吞吐率：33.08req/s] [内存消耗：1,656.68kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:48:09+08:00 ] ::1 GET wuliu/
+[运行时间：0.033100s] [吞吐率：30.21req/s] [内存消耗：1,656.68kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:48:37+08:00 ] ::1 GET wuliu/
+[运行时间：0.030801s] [吞吐率：32.47req/s] [内存消耗：1,656.77kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/
+[运行时间：0.048819s] [吞吐率：20.48req/s] [内存消耗：2,413.80kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.026110s] [吞吐率：38.30req/s] [内存消耗：1,656.91kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/css/amazeui.min.css
+[运行时间：0.031038s] [吞吐率：32.22req/s] [内存消耗：1,657.07kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.036053s] [吞吐率：27.74req/s] [内存消耗：1,656.86kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/css/amazeui.datatables.min.css
+[运行时间：0.035106s] [吞吐率：28.49req/s] [内存消耗：1,656.96kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/css/app.css
+[运行时间：0.035899s] [吞吐率：27.86req/s] [内存消耗：1,656.76kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.022741s] [吞吐率：43.97req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/js/jquery.min.js
+[运行时间：0.046326s] [吞吐率：21.59req/s] [内存消耗：1,656.95kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.020386s] [吞吐率：49.05req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.021406s] [吞吐率：46.72req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020393s] [吞吐率：49.04req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/i/app-icon72x72@2x.png
+[运行时间：0.022152s] [吞吐率：45.14req/s] [内存消耗：1,656.97kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T09:49:07+08:00 ] ::1 GET wuliu/assets/i/favicon.png
+[运行时间：0.022120s] [吞吐率：45.21req/s] [内存消耗：1,656.88kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/
+[运行时间：0.032980s] [吞吐率：30.32req/s] [内存消耗：2,413.90kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/static/css/amazeui.datatables.min.css
+[运行时间：0.024375s] [吞吐率：41.03req/s] [内存消耗：1,657.09kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.025656s] [吞吐率：38.98req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.026272s] [吞吐率：38.06req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.037520s] [吞吐率：26.65req/s] [内存消耗：1,656.89kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.022088s] [吞吐率：45.27req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/static/i/favicon.png
+[运行时间：0.022600s] [吞吐率：44.25req/s] [内存消耗：1,656.80kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:09:26+08:00 ] ::1 GET wuliu/static/i/app-icon72x72@2x.png
+[运行时间：0.022764s] [吞吐率：43.93req/s] [内存消耗：1,656.77kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:14+08:00 ] ::1 GET wuliu/
+[运行时间：0.026582s] [吞吐率：37.62req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.024399s] [吞吐率：40.99req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.026428s] [吞吐率：37.84req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/static/css/amazeui.datatables.min.css
+[运行时间：0.032749s] [吞吐率：30.54req/s] [内存消耗：1,656.91kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.040640s] [吞吐率：24.61req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.020565s] [吞吐率：48.63req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.020705s] [吞吐率：48.30req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020821s] [吞吐率：48.03req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/static/i/app-icon72x72@2x.png
+[运行时间：0.022544s] [吞吐率：44.36req/s] [内存消耗：1,656.72kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:28:15+08:00 ] ::1 GET wuliu/static/i/favicon.png
+[运行时间：0.022595s] [吞吐率：44.26req/s] [内存消耗：1,656.85kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/
+[运行时间：0.029823s] [吞吐率：33.53req/s] [内存消耗：2,223.18kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.026866s] [吞吐率：37.22req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.026250s] [吞吐率：38.10req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.032480s] [吞吐率：30.79req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/static/css/amazeui.datatables.min.css
+[运行时间：0.028393s] [吞吐率：35.22req/s] [内存消耗：1,656.77kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.021130s] [吞吐率：47.33req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.020739s] [吞吐率：48.22req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:09+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020509s] [吞吐率：48.76req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:10+08:00 ] ::1 GET wuliu/static/i/app-icon72x72@2x.png
+[运行时间：0.023186s] [吞吐率：43.13req/s] [内存消耗：1,656.72kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T10:29:10+08:00 ] ::1 GET wuliu/static/i/favicon.png
+[运行时间：0.022965s] [吞吐率：43.54req/s] [内存消耗：1,656.80kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/
+[运行时间：0.031191s] [吞吐率：32.06req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.026268s] [吞吐率：38.07req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.026639s] [吞吐率：37.54req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.029009s] [吞吐率：34.47req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.021822s] [吞吐率：45.83req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.022106s] [吞吐率：45.24req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/static/i/favicon.png
+[运行时间：0.022983s] [吞吐率：43.51req/s] [内存消耗：1,656.80kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:26:19+08:00 ] ::1 GET wuliu/static/i/app-icon72x72@2x.png
+[运行时间：0.023435s] [吞吐率：42.67req/s] [内存消耗：1,656.72kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:27:28+08:00 ] ::1 GET wuliu/
+[运行时间：0.026357s] [吞吐率：37.94req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:27:28+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.027509s] [吞吐率：36.35req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:27:28+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.027231s] [吞吐率：36.72req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:27:28+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.027072s] [吞吐率：36.94req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:27:28+08:00 ] ::1 GET wuliu/static/i/favicon.png
+[运行时间：0.021680s] [吞吐率：46.13req/s] [内存消耗：1,656.80kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:27:28+08:00 ] ::1 GET wuliu/static/i/app-icon72x72@2x.png
+[运行时间：0.023091s] [吞吐率：43.31req/s] [内存消耗：1,656.72kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:30:58+08:00 ] ::1 GET wuliu/
+[运行时间：0.034858s] [吞吐率：28.69req/s] [内存消耗：2,413.95kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:30:58+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.029636s] [吞吐率：33.74req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:30:58+08:00 ] ::1 GET wuliu/assets/js/theme.js
+[运行时间：0.032181s] [吞吐率：31.07req/s] [内存消耗：1,656.98kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:30:58+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.031468s] [吞吐率：31.78req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:30:58+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.025078s] [吞吐率：39.88req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:30:58+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.021189s] [吞吐率：47.19req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:31:38+08:00 ] ::1 GET wuliu/
+[运行时间：0.029203s] [吞吐率：34.24req/s] [内存消耗：2,413.97kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:31:38+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.025807s] [吞吐率：38.75req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:31:38+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.025885s] [吞吐率：38.63req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:31:38+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.021658s] [吞吐率：46.17req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:31:56+08:00 ] ::1 GET wuliu/
+[运行时间：0.030460s] [吞吐率：32.83req/s] [内存消耗：2,413.00kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:31:56+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.021742s] [吞吐率：45.99req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:31:56+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.022235s] [吞吐率：44.97req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:31:56+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020748s] [吞吐率：48.20req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:31:59+08:00 ] ::1 GET wuliu/
+[运行时间：0.028266s] [吞吐率：35.38req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:32:00+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.023153s] [吞吐率：43.19req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:32:00+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.027947s] [吞吐率：35.78req/s] [内存消耗：1,656.87kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:34:14+08:00 ] ::1 GET wuliu/
+[运行时间：0.027308s] [吞吐率：36.62req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:34:14+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.027399s] [吞吐率：36.50req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:34:14+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.028194s] [吞吐率：35.47req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:34:14+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.021358s] [吞吐率：46.82req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:37+08:00 ] ::1 GET wuliu/
+[运行时间：0.027962s] [吞吐率：35.76req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:35:37+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.025983s] [吞吐率：38.49req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:37+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.026118s] [吞吐率：38.29req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:37+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.021327s] [吞吐率：46.89req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:39+08:00 ] ::1 GET wuliu/
+[运行时间：0.025777s] [吞吐率：38.79req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:35:40+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.025079s] [吞吐率：39.87req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:40+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.029061s] [吞吐率：34.41req/s] [内存消耗：1,656.87kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:43+08:00 ] ::1 GET wuliu/
+[运行时间：0.025771s] [吞吐率：38.80req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:35:43+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.024840s] [吞吐率：40.26req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:43+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.025127s] [吞吐率：39.80req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:43+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.022408s] [吞吐率：44.63req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:43+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020565s] [吞吐率：48.63req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:58+08:00 ] ::1 GET wuliu/
+[运行时间：0.028067s] [吞吐率：35.63req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:35:58+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.027560s] [吞吐率：36.28req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:58+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.027795s] [吞吐率：35.98req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:35:58+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.023028s] [吞吐率：43.43req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:44+08:00 ] ::1 GET wuliu/
+[运行时间：0.028364s] [吞吐率：35.26req/s] [内存消耗：2,223.03kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:36:44+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.024216s] [吞吐率：41.29req/s] [内存消耗：1,656.84kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:44+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.024164s] [吞吐率：41.38req/s] [内存消耗：1,656.72kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:44+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.021582s] [吞吐率：46.33req/s] [内存消耗：1,656.84kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:44+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020326s] [吞吐率：49.20req/s] [内存消耗：1,656.72kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:45+08:00 ] ::1 GET wuliu/
+[运行时间：0.031526s] [吞吐率：31.72req/s] [内存消耗：2,223.18kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:36:45+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.025669s] [吞吐率：38.96req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:45+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.026350s] [吞吐率：37.95req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:45+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.021898s] [吞吐率：45.67req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:36:45+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020641s] [吞吐率：48.45req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:39:47+08:00 ] ::1 GET wuliu/
+[运行时间：0.027307s] [吞吐率：36.62req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:39:47+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.024190s] [吞吐率：41.34req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:39:47+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.024552s] [吞吐率：40.73req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:40:50+08:00 ] ::1 GET wuliu/
+[运行时间：0.031193s] [吞吐率：32.06req/s] [内存消耗：2,413.16kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:40:51+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.026887s] [吞吐率：37.19req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:40:51+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.026162s] [吞吐率：38.22req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:40:51+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.021192s] [吞吐率：47.19req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:41:31+08:00 ] ::1 GET wuliu/
+[运行时间：0.030614s] [吞吐率：32.66req/s] [内存消耗：2,413.15kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:41:31+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.028707s] [吞吐率：34.83req/s] [内存消耗：1,656.86kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:41:31+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.028686s] [吞吐率：34.86req/s] [内存消耗：1,656.87kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:41:39+08:00 ] ::1 GET wuliu/
+[运行时间：0.031175s] [吞吐率：32.08req/s] [内存消耗：2,223.19kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:41:40+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.023525s] [吞吐率：42.51req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:41:40+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.028323s] [吞吐率：35.31req/s] [内存消耗：1,656.86kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:41:40+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.020787s] [吞吐率：48.11req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:42:00+08:00 ] ::1 GET wuliu/
+[运行时间：0.035048s] [吞吐率：28.53req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:42:00+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.030606s] [吞吐率：32.67req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:42:00+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.029783s] [吞吐率：33.58req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:42:00+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.024108s] [吞吐率：41.48req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:42:37+08:00 ] ::1 GET wuliu/
+[运行时间：0.028151s] [吞吐率：35.52req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:42:38+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.026654s] [吞吐率：37.52req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:42:38+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.026342s] [吞吐率：37.96req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:42:38+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.022777s] [吞吐率：43.90req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:44:56+08:00 ] ::1 GET wuliu/
+[运行时间：0.037768s] [吞吐率：26.48req/s] [内存消耗：2,413.23kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:44:56+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.026080s] [吞吐率：38.34req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:44:56+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.027542s] [吞吐率：36.31req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:44:56+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.022157s] [吞吐率：45.13req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:45:02+08:00 ] ::1 GET wuliu/
+[运行时间：0.027275s] [吞吐率：36.66req/s] [内存消耗：2,223.16kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T13:45:02+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.021808s] [吞吐率：45.85req/s] [内存消耗：1,656.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:45:02+08:00 ] ::1 GET wuliu/assets/js/amazeui.min.js
+[运行时间：0.021895s] [吞吐率：45.67req/s] [内存消耗：1,657.01kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:45:02+08:00 ] ::1 GET wuliu/assets/js/app.js
+[运行时间：0.025850s] [吞吐率：38.68req/s] [内存消耗：1,656.87kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T13:59:31+08:00 ] ::1 GET wuliu/
+[运行时间：0.038777s] [吞吐率：25.79req/s] [内存消耗：2,412.74kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:17:26+08:00 ] ::1 GET wuliu/
+[运行时间：0.030713s] [吞吐率：32.56req/s] [内存消耗：2,413.16kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:25:03+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.032778s] [吞吐率：30.51req/s] [内存消耗：2,222.74kb] [文件加载：61]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:25:08+08:00 ] ::1 GET wuliu/admin/index/
+[运行时间：0.037749s] [吞吐率：26.49req/s] [内存消耗：2,456.10kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:25:09+08:00 ] ::1 GET wuliu/static/i/favicon.png
+[运行时间：0.028236s] [吞吐率：35.42req/s] [内存消耗：1,657.10kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T14:25:09+08:00 ] ::1 GET wuliu/static/i/app-icon72x72@2x.png
+[运行时间：0.028926s] [吞吐率：34.57req/s] [内存消耗：1,656.86kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T14:46:17+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.034041s] [吞吐率：29.38req/s] [内存消耗：2,506.27kb] [文件加载：68]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+[ error ] [1]Call to undefined function captcha_src()[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/d6f796ebcaf3b7eb4e70593d0d168cbd.php:40]
+---------------------------------------------------------------
+[ 2018-11-01T14:54:55+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.036595s] [吞吐率：27.33req/s] [内存消耗：2,560.57kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T14:54:55+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.048159s] [吞吐率：20.76req/s] [内存消耗：1,899.20kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:06:05+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.037017s] [吞吐率：27.01req/s] [内存消耗：2,751.73kb] [文件加载：68]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:06:05+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.029853s] [吞吐率：33.50req/s] [内存消耗：1,899.20kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:06:08+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.031971s] [吞吐率：31.28req/s] [内存消耗：2,560.93kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:06:08+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.028413s] [吞吐率：35.20req/s] [内存消耗：1,899.66kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:34:52+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.030146s] [吞吐率：33.17req/s] [内存消耗：2,561.72kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:34:52+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027376s] [吞吐率：36.53req/s] [内存消耗：1,900.27kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:34:55+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.032499s] [吞吐率：30.77req/s] [内存消耗：2,561.82kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:34:55+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.028193s] [吞吐率：35.47req/s] [内存消耗：1,900.33kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:34:57+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.031193s] [吞吐率：32.06req/s] [内存消耗：2,561.82kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:34:57+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.031209s] [吞吐率：32.04req/s] [内存消耗：1,900.31kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:38:03+08:00 ] ::1 GET wuliu/static/i/app-icon72x72@2x.png
+[运行时间：0.030551s] [吞吐率：32.73req/s] [内存消耗：1,906.58kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-01T15:38:05+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.029149s] [吞吐率：34.31req/s] [内存消耗：1,899.21kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:38:07+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.029683s] [吞吐率：33.69req/s] [内存消耗：2,560.93kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:38:07+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.028689s] [吞吐率：34.86req/s] [内存消耗：1,899.63kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:38:09+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.031849s] [吞吐率：31.40req/s] [内存消耗：2,560.93kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:38:09+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.029900s] [吞吐率：33.44req/s] [内存消耗：1,899.65kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:41:01+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.031438s] [吞吐率：31.81req/s] [内存消耗：2,560.95kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:41:01+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.031701s] [吞吐率：31.54req/s] [内存消耗：1,899.35kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:42:22+08:00 ] ::1 GET wuliu/admin/
+[运行时间：0.030402s] [吞吐率：32.89req/s] [内存消耗：2,560.95kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:42:22+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027117s] [吞吐率：36.88req/s] [内存消耗：1,899.17kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:42:27+08:00 ] ::1 GET wuliu/
+[运行时间：0.030085s] [吞吐率：33.24req/s] [内存消耗：2,560.66kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:42:27+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027284s] [吞吐率：36.65req/s] [内存消耗：1,899.14kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:42:29+08:00 ] ::1 GET wuliu/
+[运行时间：0.029199s] [吞吐率：34.25req/s] [内存消耗：2,560.66kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:42:29+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027707s] [吞吐率：36.09req/s] [内存消耗：1,899.13kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:53:36+08:00 ] ::1 GET wuliu/
+[运行时间：0.029382s] [吞吐率：34.03req/s] [内存消耗：2,560.94kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:53:36+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027538s] [吞吐率：36.31req/s] [内存消耗：1,899.22kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:53:38+08:00 ] ::1 GET wuliu/
+[运行时间：0.030182s] [吞吐率：33.13req/s] [内存消耗：2,560.58kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:53:38+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027390s] [吞吐率：36.51req/s] [内存消耗：1,899.58kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:53:40+08:00 ] ::1 GET wuliu/
+[运行时间：0.030581s] [吞吐率：32.70req/s] [内存消耗：2,560.62kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:53:40+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027986s] [吞吐率：35.73req/s] [内存消耗：1,899.57kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:54:19+08:00 ] ::1 GET wuliu/
+[运行时间：0.031181s] [吞吐率：32.07req/s] [内存消耗：2,560.94kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:54:19+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.030916s] [吞吐率：32.35req/s] [内存消耗：1,899.16kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:54:21+08:00 ] ::1 GET wuliu/
+[运行时间：0.031664s] [吞吐率：31.58req/s] [内存消耗：2,560.59kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:54:21+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.031788s] [吞吐率：31.46req/s] [内存消耗：1,899.53kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:54:55+08:00 ] ::1 GET wuliu/
+[运行时间：0.031407s] [吞吐率：31.84req/s] [内存消耗：2,561.98kb] [文件加载：67]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:54:55+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.029412s] [吞吐率：34.00req/s] [内存消耗：1,899.51kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:54:57+08:00 ] ::1 GET wuliu/
+[运行时间：0.031074s] [吞吐率：32.18req/s] [内存消耗：2,561.98kb] [文件加载：67]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:54:57+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.029874s] [吞吐率：33.47req/s] [内存消耗：1,899.48kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:55:08+08:00 ] ::1 GET wuliu/
+[运行时间：0.035802s] [吞吐率：27.93req/s] [内存消耗：2,562.42kb] [文件加载：67]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:55:08+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.026736s] [吞吐率：37.40req/s] [内存消耗：1,899.59kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:55:10+08:00 ] ::1 GET wuliu/
+[运行时间：0.030530s] [吞吐率：32.75req/s] [内存消耗：2,562.42kb] [文件加载：67]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:55:10+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027164s] [吞吐率：36.81req/s] [内存消耗：1,899.53kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:57:03+08:00 ] ::1 GET wuliu/
+[运行时间：0.034279s] [吞吐率：29.17req/s] [内存消耗：2,753.60kb] [文件加载：69]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:57:03+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027840s] [吞吐率：35.92req/s] [内存消耗：1,899.57kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:57:04+08:00 ] ::1 GET wuliu/captcha.html?0.24723898775185793
+[运行时间：0.027438s] [吞吐率：36.45req/s] [内存消耗：1,899.40kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+)
+[ info ] [ PARAM ] array (
+  '0_24723898775185793' => '',
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:57:05+08:00 ] ::1 GET wuliu/captcha.html?0.7206058192298032
+[运行时间：0.024926s] [吞吐率：40.12req/s] [内存消耗：1,899.34kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+)
+[ info ] [ PARAM ] array (
+  '0_7206058192298032' => '',
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:57:05+08:00 ] ::1 GET wuliu/captcha.html?0.45018192463536
+[运行时间：0.025405s] [吞吐率：39.36req/s] [内存消耗：1,899.44kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+)
+[ info ] [ PARAM ] array (
+  '0_45018192463536' => '',
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:58:48+08:00 ] ::1 GET wuliu/
+[运行时间：0.030912s] [吞吐率：32.35req/s] [内存消耗：2,563.43kb] [文件加载：67]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:58:48+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.028744s] [吞吐率：34.79req/s] [内存消耗：1,900.26kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:58:50+08:00 ] ::1 GET wuliu/
+[运行时间：0.031699s] [吞吐率：31.55req/s] [内存消耗：2,563.58kb] [文件加载：67]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:58:50+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027256s] [吞吐率：36.69req/s] [内存消耗：1,900.34kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T15:58:54+08:00 ] ::1 GET wuliu/
+[运行时间：0.029452s] [吞吐率：33.95req/s] [内存消耗：2,563.18kb] [文件加载：67]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T15:58:54+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027067s] [吞吐率：36.95req/s] [内存消耗：1,899.84kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T16:10:49+08:00 ] ::1 GET wuliu/
+[运行时间：0.038337s] [吞吐率：26.08req/s] [内存消耗：2,560.88kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T16:10:49+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.027460s] [吞吐率：36.42req/s] [内存消耗：1,899.22kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T16:10:51+08:00 ] ::1 GET wuliu/
+[运行时间：0.029307s] [吞吐率：34.12req/s] [内存消耗：2,560.59kb] [文件加载：66]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-01T16:10:51+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.030097s] [吞吐率：33.23req/s] [内存消耗：1,899.48kb] [文件加载：53]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-01T16:14:05+08:00 ] ::1 GET wuliu/
+[运行时间：0.037269s] [吞吐率：26.83req/s] [内存消耗：2,497.55kb] [文件加载：65]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN), expecting ',' or ';'[/Applications/MAMP/htdocs/web/wuliu/application/admin/controller/Login.php:14]
+---------------------------------------------------------------
+[ 2018-11-01T16:14:15+08:00 ] ::1 GET wuliu/
+[运行时间：0.037330s] [吞吐率：26.79req/s] [内存消耗：2,497.59kb] [文件加载：65]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [4]语法错误: unexpected '}', expecting ',' or ';'[/Applications/MAMP/htdocs/web/wuliu/application/admin/controller/Login.php:15]
+---------------------------------------------------------------
+[ 2018-11-01T16:14:21+08:00 ] ::1 GET wuliu/
+[运行时间：0.041605s] [吞吐率：24.04req/s] [内存消耗：2,548.20kb] [文件加载：68]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=6933149696; pgv_si=s5427620864; PHPSESSID=a1bf659071bc04fe0ebe8b188b2a5e79',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]Use of undefined constant THINK_VERSION - assumed 'THINK_VERSION'[/Applications/MAMP/htdocs/web/wuliu/application/admin/controller/Login.php:12]

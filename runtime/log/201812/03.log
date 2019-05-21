@@ -1,0 +1,133 @@
+---------------------------------------------------------------
+[ 2018-12-03T10:30:18+08:00 ] ::1 GET wuliu/
+[运行时间：0.055564s] [吞吐率：18.00req/s] [内存消耗：2,573.68kb] [文件加载：69]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-03T10:30:18+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.073868s] [吞吐率：13.54req/s] [内存消耗：2,421.55kb] [文件加载：63]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-03T10:30:22+08:00 ] ::1 GET wuliu/admin/user/index.html
+[运行时间：0.038637s] [吞吐率：25.88req/s] [内存消耗：2,505.68kb] [文件加载：68]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [4]语法错误: unexpected 'ntroller' (T_STRING), expecting '{'[/Applications/MAMP/htdocs/web/wuliu/application/admin/controller/UserController.php:7]
+---------------------------------------------------------------
+[ 2018-12-03T10:30:49+08:00 ] ::1 GET wuliu/admin/user/index.html
+[运行时间：0.379864s] [吞吐率：2.63req/s] [内存消耗：4,649.43kb] [文件加载：88]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/index.html [ array (
+  0 => 'admin_name',
+  1 => 'list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001633s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017894s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM user u INNER JOIN `user` `us` ON `us`.`user_id`=`u`.`parent_id` INNER JOIN `admin` `ad` ON `ad`.`admin_id`=`u`.`kfuser` LIMIT 1 [ RunTime:0.269753s ]
+[ sql ] [ SQL ] SELECT `u`.`user_id`,`u`.`head_image_url`,`u`.`telephone`,`u`.`nick_name`,`u`.`unionid`,`u`.`user_role`,us.nick_name as p_name,`u`.`openid`,`u`.`create_time`,`u`.`is_subscribe`,ad.name as kfuser FROM user u INNER JOIN `user` `us` ON `us`.`user_id`=`u`.`parent_id` INNER JOIN `admin` `ad` ON `ad`.`admin_id`=`u`.`kfuser` ORDER BY `u`.`user_id` DESC LIMIT 0,20 [ RunTime:0.000878s ]
+---------------------------------------------------------------
+[ 2018-12-03T10:30:50+08:00 ] ::1 GET wuliu/static/admin/i/favicon.png
+[运行时间：0.036649s] [吞吐率：27.29req/s] [内存消耗：1,919.75kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-03T10:30:50+08:00 ] ::1 GET wuliu/static/admin/i/app-icon72x72@2x.png
+[运行时间：0.036813s] [吞吐率：27.16req/s] [内存消耗：1,920.05kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-03T10:39:32+08:00 ] ::1 GET wuliu/admin/user/commission/id/112038.html
+[运行时间：0.054381s] [吞吐率：18.39req/s] [内存消耗：3,304.89kb] [文件加载：80]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/user/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '112038',
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+) ]
+---------------------------------------------------------------
+[ 2018-12-03T10:39:32+08:00 ] ::1 GET wuliu/static/admin/i/app-icon72x72@2x.png
+[运行时间：0.033006s] [吞吐率：30.30req/s] [内存消耗：1,919.89kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-03T10:39:32+08:00 ] ::1 GET wuliu/static/admin/i/favicon.png
+[运行时间：0.037345s] [吞吐率：26.78req/s] [内存消耗：1,920.12kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php

@@ -1,0 +1,460 @@
+---------------------------------------------------------------
+[ 2018-12-11T09:40:38+08:00 ] ::1 GET wuliu/admin/user/commission/id/112038.html
+[运行时间：0.179411s] [吞吐率：5.57req/s] [内存消耗：4,907.07kb] [文件加载：96]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '112038',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002792s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.015362s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.003690s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 112038 LIMIT 0,10 [ RunTime:0.004062s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.004942s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.000761s ]
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:180]
+---------------------------------------------------------------
+[ 2018-12-11T09:42:33+08:00 ] ::1 GET wuliu/admin/user/commission/id/112038.html
+[运行时间：0.074184s] [吞吐率：13.48req/s] [内存消耗：4,492.39kb] [文件加载：85]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '112038',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000794s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.002161s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 112038 LIMIT 0,10 [ RunTime:0.003999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2018-12-11T09:43:07+08:00 ] ::1 GET wuliu/admin/user/commission/id/112038.html
+[运行时间：0.071252s] [吞吐率：14.03req/s] [内存消耗：4,492.38kb] [文件加载：85]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '112038',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000853s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.002192s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 112038 LIMIT 0,10 [ RunTime:0.003988s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.000537s ]
+---------------------------------------------------------------
+[ 2018-12-11T09:43:10+08:00 ] ::1 GET wuliu/admin/index/index.html
+[运行时间：0.179924s] [吞吐率：5.56req/s] [内存消耗：4,508.90kb] [文件加载：86]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/login/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/index/index.html [ array (
+  0 => 'admin_name',
+  1 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.003299s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` `g` INNER JOIN `goods_standard` `gs` ON `g`.`goods_id`=`gs`.`goods_id` WHERE  `g`.`is_delete` = '0'  AND `g`.`is_on_sale` = '1'  AND `gs`.`stock` = '0' LIMIT 1 [ RunTime:0.004015s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT `gs`.`warn_number`,`gs`.`goods_standard_id` FROM `goods` `g` INNER JOIN `goods_standard` `gs` ON `g`.`goods_id`=`gs`.`goods_id` WHERE  `g`.`is_delete` = '0'  AND `g`.`is_on_sale` = '1' )t INNER JOIN `goods_standard` `gs` ON `t`.`goods_standard_id`=`gs`.`goods_standard_id` WHERE  `gs`.`stock` <= 't.warn_number' LIMIT 1 [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_info` [ RunTime:0.017650s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order_info` WHERE  `pay_status` = 0 LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order_info` WHERE  `apply_refund_time` > '0'  AND `refund_status` = 1 LIMIT 1 [ RunTime:0.009385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008871s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `agent_time` >= '2018-12-01'  AND `agent_time` <= '2018-12-31' LIMIT 1 [ RunTime:0.050010s ]
+[ sql ] [ SQL ] SELECT sum(goods_amount) as pirce,count(order_info_id) as num FROM `order_info` WHERE  `pay_status` = 2  AND `add_time` >= 1543593600  AND `add_time` <= 1546271999 LIMIT 1 [ RunTime:0.009059s ]
+---------------------------------------------------------------
+[ 2018-12-11T09:43:11+08:00 ] ::1 GET wuliu/static/admin/i/favicon.png
+[运行时间：0.043543s] [吞吐率：22.97req/s] [内存消耗：1,919.74kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-11T09:43:11+08:00 ] ::1 GET wuliu/static/admin/i/app-icon72x72@2x.png
+[运行时间：0.043436s] [吞吐率：23.02req/s] [内存消耗：1,919.89kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-11T09:43:14+08:00 ] ::1 GET wuliu/admin/user/commission/id/112038.html
+[运行时间：0.075485s] [吞吐率：13.25req/s] [内存消耗：4,492.38kb] [文件加载：85]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '112038',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000848s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.002248s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 112038 LIMIT 0,10 [ RunTime:0.004056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 112038 LIMIT 1 [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2018-12-11T09:43:21+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.079211s] [吞吐率：12.62req/s] [内存消耗：4,571.01kb] [文件加载：86]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000831s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002650s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.004096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.001813s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2018-12-11T09:44:02+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.088312s] [吞吐率：11.32req/s] [内存消耗：4,782.02kb] [文件加载：95]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000939s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002168s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.004302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000538s ]
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:180]
+---------------------------------------------------------------
+[ 2018-12-11T09:44:08+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.077220s] [吞吐率：12.95req/s] [内存消耗：4,986.30kb] [文件加载：97]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002149s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.003994s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000586s ]
+[ error ] [2]Illegal string offset 'amount'[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:180]
+---------------------------------------------------------------
+[ 2018-12-11T09:44:42+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.080526s] [吞吐率：12.42req/s] [内存消耗：4,985.97kb] [文件加载：97]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000731s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002168s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.004171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000590s ]
+[ error ] [2]Illegal string offset 'amount'[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:180]
+---------------------------------------------------------------
+[ 2018-12-11T09:45:20+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.081969s] [吞吐率：12.20req/s] [内存消耗：4,985.96kb] [文件加载：97]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000922s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002209s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.004324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000569s ]
+[ error ] [2]htmlentities() expects parameter 1 to be string, array given[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:177]
+---------------------------------------------------------------
+[ 2018-12-11T09:45:40+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.081690s] [吞吐率：12.24req/s] [内存消耗：4,908.78kb] [文件加载：92]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002819s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.003992s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2018-12-11T09:45:40+08:00 ] ::1 GET wuliu/static/admin/i/favicon.png
+[运行时间：0.030254s] [吞吐率：33.05req/s] [内存消耗：1,919.62kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-11T09:45:40+08:00 ] ::1 GET wuliu/static/admin/i/app-icon72x72@2x.png
+[运行时间：0.037448s] [吞吐率：26.70req/s] [内存消耗：1,919.80kb] [文件加载：56]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-11T09:48:59+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.073323s] [吞吐率：13.64req/s] [内存消耗：4,986.38kb] [文件加载：97]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002288s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.004193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000635s ]
+[ error ] [2]Illegal string offset 'amount'[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:181]
+---------------------------------------------------------------
+[ 2018-12-11T09:49:18+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.076155s] [吞吐率：13.13req/s] [内存消耗：4,986.62kb] [文件加载：97]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002424s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.003994s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000562s ]
+[ error ] [2]Illegal string offset 'amount'[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:181]
+---------------------------------------------------------------
+[ 2018-12-11T09:49:20+08:00 ] ::1 GET wuliu/admin/user/commission/id/15724.html
+[运行时间：0.070171s] [吞吐率：14.25req/s] [内存消耗：4,781.97kb] [文件加载：95]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=dad2e4038a553f1f147d91589be2538e',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '15724',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/user/commission.html [ array (
+  0 => 'admin_name',
+  1 => 'commission',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_account` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_account` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.002352s ]
+[ sql ] [ SQL ] SELECT `user_account_id`,`transaction_type`,`balance`,`operation_name`,`description`,`create_time`,`amount` FROM `user_account` WHERE  `user_id` = 15724 LIMIT 0,10 [ RunTime:0.004302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shopkeeper` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `income`,`outcome`,`total`,`pay` FROM `shopkeeper` WHERE  `user_id` = 15724 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `withdraw_id` = 0 LIMIT 1 [ RunTime:0.000519s ]
+[ error ] [2]Illegal string offset 'amount'[/Applications/MAMP/htdocs/web/wuliu/runtime/temp/1953ddc16239527d15508f659cacbdaa.php:181]

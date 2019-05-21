@@ -1,0 +1,1348 @@
+---------------------------------------------------------------
+[ 2019-03-05T00:44:09+08:00 ] 107.170.196.102 GET 118.24.8.254/
+[运行时间：0.003057s] [吞吐率：327.12req/s] [内存消耗：343.72kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-05T09:33:25+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.250420s] [吞吐率：3.99req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/b17cda32f33ff9c79c8c302fa1a8d9eb',
+  'origin' => 'http://127.0.0.1:47085',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071zQTcZ0FLASV1tM0dZ0SwScZ0zQTcW',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:22]
+---------------------------------------------------------------
+[ 2019-03-05T10:35:37+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.003033s] [吞吐率：329.71req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/b17cda32f33ff9c79c8c302fa1a8d9eb',
+  'origin' => 'http://127.0.0.1:47085',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0719WZhE1nFHh70fxkkE1Cu1iE19WZh8',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:22]
+---------------------------------------------------------------
+[ 2019-03-05T11:18:46+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002823s] [吞吐率：354.22req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/b17cda32f33ff9c79c8c302fa1a8d9eb',
+  'origin' => 'http://127.0.0.1:47085',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021SHGYj18hs3n0wRPZj1hLwYj1SHGYt',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:22]
+---------------------------------------------------------------
+[ 2019-03-05T11:20:40+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002576s] [吞吐率：388.18req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/b17cda32f33ff9c79c8c302fa1a8d9eb',
+  'origin' => 'http://127.0.0.1:47085',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061G4fI70lWQZE1K2cG70UnXH70G4fId',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:22]
+---------------------------------------------------------------
+[ 2019-03-05T11:22:03+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.003399s] [吞吐率：294.19req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/b17cda32f33ff9c79c8c302fa1a8d9eb',
+  'origin' => 'http://127.0.0.1:47085',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011OZlSI1XKeG20lF2TI11e4SI1OZlS3',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:22]
+---------------------------------------------------------------
+[ 2019-03-05T12:51:34+08:00 ] 185.53.91.50 GET 118.24.8.254/_asterisk/
+[运行时间：0.039915s] [吞吐率：25.05req/s] [内存消耗：311.88kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-05T13:23:12+08:00 ] 128.199.161.96 GET 118.24.8.254/
+[运行时间：0.071448s] [吞吐率：14.00req/s] [内存消耗：343.73kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-05T16:06:31+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.013571s] [吞吐率：73.69req/s] [内存消耗：350.15kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001FzlJa0gRnzy1RcNKa0zkdJa0FzlJ-',
+  'type' => 'login',
+)
+[ error ] [0]致命错误: Call to undefined function app\api\controller\curl_easy_setopt()[/www/wuliu/application/api/controller/UserController.php:36]
+---------------------------------------------------------------
+[ 2019-03-05T16:06:36+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002386s] [吞吐率：419.14req/s] [内存消耗：349.05kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0816QP2w1gpmEg0QR02w1VeL2w16QP2T',
+  'type' => 'login',
+)
+[ error ] [0]致命错误: Call to undefined function app\api\controller\curl_easy_setopt()[/www/wuliu/application/api/controller/UserController.php:36]
+---------------------------------------------------------------
+[ 2019-03-05T16:07:01+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.003169s] [吞吐率：315.55req/s] [内存消耗：349.05kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061ICorp1PjaRj0lYMsp1Cx2rp1ICorI',
+  'type' => 'login',
+)
+[ error ] [0]致命错误: Call to undefined function app\api\controller\curl_easy_setopt()[/www/wuliu/application/api/controller/UserController.php:36]
+---------------------------------------------------------------
+[ 2019-03-05T16:08:44+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002145s] [吞吐率：466.19req/s] [内存消耗：365.72kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061vdzGv0Roshj1A6EIv0uQMGv0vdzG9',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:09:12+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.001453s] [吞吐率：688.15req/s] [内存消耗：364.63kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0013LE7P1tivwa1eZyaP1ILt7P13LE7J',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:09:29+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.001668s] [吞吐率：599.44req/s] [内存消耗：364.63kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081bKKtp1AB7Oj0Pmqsp1If6up1bKKte',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:10:45+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002364s] [吞吐率：423.03req/s] [内存消耗：365.72kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0215pXFG0kbLpe2HbmGG08c9GG05pXFF',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:11:08+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002134s] [吞吐率：468.58req/s] [内存消耗：364.63kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001g2Ez414e2NS1RXSA41w2Xz41g2EzU',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:12:32+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002672s] [吞吐率：374.26req/s] [内存消耗：366.59kb] [文件加载：67]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0117eyuw1xnulh0DJgww1rTDuw17eyuz',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:13:18+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.001564s] [吞吐率：639.38req/s] [内存消耗：365.50kb] [文件加载：67]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011iLUzN1OYSE81SrcCN1OKJzN1iLUzZ',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:13:33+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002617s] [吞吐率：382.13req/s] [内存消耗：365.72kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:14:10+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login
+[运行时间：0.002264s] [吞吐率：441.69req/s] [内存消耗：350.68kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T16:14:28+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=%22001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL%22
+[运行时间：0.002324s] [吞吐率：430.32req/s] [内存消耗：350.73kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '"001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL"',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T16:14:36+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.002130s] [吞吐率：469.48req/s] [内存消耗：366.77kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:14:46+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.001919s] [吞吐率：521.10req/s] [内存消耗：365.84kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:14:48+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.001733s] [吞吐率：577.01req/s] [内存消耗：365.84kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:14:53+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.002048s] [吞吐率：488.28req/s] [内存消耗：365.67kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:15:17+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.002139s] [吞吐率：467.49req/s] [内存消耗：365.84kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:15:19+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.001528s] [吞吐率：654.44req/s] [内存消耗：365.67kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:15:32+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.001460s] [吞吐率：684.90req/s] [内存消耗：365.67kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:15:38+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.003248s] [吞吐率：307.86req/s] [内存消耗：351.36kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+[ error ] [0]致命错误: Call to undefined function app\api\controller\curl_easy_setopt()[/www/wuliu/application/api/controller/UserController.php:36]
+---------------------------------------------------------------
+[ 2019-03-05T16:21:15+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.002866s] [吞吐率：348.91req/s] [内存消耗：344.84kb] [文件加载：67]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[/www/wuliu/application/api/controller/UserController.php:36]
+---------------------------------------------------------------
+[ 2019-03-05T16:21:29+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.395900s] [吞吐率：2.53req/s] [内存消耗：346.14kb] [文件加载：68]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T16:21:47+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.261853s] [吞吐率：3.82req/s] [内存消耗：345.05kb] [文件加载：68]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+---------------------------------------------------------------
+[ 2019-03-05T17:08:54+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.003104s] [吞吐率：322.17req/s] [内存消耗：352.80kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:35]
+---------------------------------------------------------------
+[ 2019-03-05T17:09:24+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.003414s] [吞吐率：292.92req/s] [内存消耗：351.71kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:35]
+---------------------------------------------------------------
+[ 2019-03-05T17:09:27+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.002452s] [吞吐率：407.85req/s] [内存消耗：351.71kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:35]
+---------------------------------------------------------------
+[ 2019-03-05T17:09:39+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.003610s] [吞吐率：277.02req/s] [内存消耗：351.71kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:35]
+---------------------------------------------------------------
+[ 2019-03-05T17:09:45+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL
+[运行时间：0.002543s] [吞吐率：393.24req/s] [内存消耗：351.55kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '001lIZkU1E6gmX0kJtiU1JXQkU1lIZkL',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:35]
+---------------------------------------------------------------
+[ 2019-03-05T17:10:35+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002416s] [吞吐率：413.93req/s] [内存消耗：365.72kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T17:11:00+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.002617s] [吞吐率：382.13req/s] [内存消耗：350.73kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:11:20+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.003203s] [吞吐率：312.22req/s] [内存消耗：350.73kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:11:32+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.002429s] [吞吐率：411.69req/s] [内存消耗：350.90kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:11:54+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.002853s] [吞吐率：350.52req/s] [内存消耗：352.64kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:37]
+---------------------------------------------------------------
+[ 2019-03-05T17:12:45+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.003183s] [吞吐率：314.18req/s] [内存消耗：351.71kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:37]
+---------------------------------------------------------------
+[ 2019-03-05T17:12:47+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.002978s] [吞吐率：335.79req/s] [内存消耗：351.71kb] [文件加载：73]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[/www/wuliu/application/api/controller/UserController.php:37]
+---------------------------------------------------------------
+[ 2019-03-05T17:13:10+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.245068s] [吞吐率：4.08req/s] [内存消耗：346.14kb] [文件加载：68]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+---------------------------------------------------------------
+[ 2019-03-05T17:13:23+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021RVOIg0qRwYv1KMbIg0slTIg0RVOIb
+[运行时间：0.239718s] [吞吐率：4.17req/s] [内存消耗：345.05kb] [文件加载：68]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021RVOIg0qRwYv1KMbIg0slTIg0RVOIb',
+)
+---------------------------------------------------------------
+[ 2019-03-05T17:13:52+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.003239s] [吞吐率：308.72req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071RZx1t1x3f0e08FS1t1uVI1t1RZx1b',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:24]
+---------------------------------------------------------------
+[ 2019-03-05T17:14:07+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.003224s] [吞吐率：310.18req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0219VzJz0iJr6e1btzHz0vuhJz09VzJ4',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:24]
+---------------------------------------------------------------
+[ 2019-03-05T17:14:36+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.001796s] [吞吐率：556.79req/s] [内存消耗：365.72kb] [文件加载：66]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T17:14:58+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7
+[运行时间：0.002659s] [吞吐率：376.10req/s] [内存消耗：350.73kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:15:06+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7
+[运行时间：0.002417s] [吞吐率：413.76req/s] [内存消耗：350.90kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:15:16+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7
+[运行时间：0.002838s] [吞吐率：352.37req/s] [内存消耗：350.73kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:15:19+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7
+[运行时间：0.002339s] [吞吐率：427.51req/s] [内存消耗：350.90kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:15:21+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7
+[运行时间：0.002353s] [吞吐率：425.00req/s] [内存消耗：350.90kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:15:33+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7
+[运行时间：0.002433s] [吞吐率：411.00req/s] [内存消耗：350.90kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+)
+[ error ] [8]未定义数组索引: code[/www/wuliu/application/api/controller/UserController.php:21]
+---------------------------------------------------------------
+[ 2019-03-05T17:16:02+08:00 ] 43.224.45.150 GET xiao.baiduzhixing.com/api/user/index?type=login&code=021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7
+[运行时间：0.262066s] [吞吐率：3.82req/s] [内存消耗：346.14kb] [文件加载：68]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=ifdqiam059030ldd3ke3dqgdg3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0',
+  'host' => 'xiao.baiduzhixing.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'login',
+  'code' => '021mrgWp0Im5Lm1t7OUp0mviWp0mrgW7',
+)
+---------------------------------------------------------------
+[ 2019-03-05T17:16:58+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.002299s] [吞吐率：434.96req/s] [内存消耗：349.69kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '01154VxM0fSqPa2yxoAM0ZrDxM054Vx9',
+  'type' => 'login',
+)
+[ error ] [8]未定义数组索引: type[/www/wuliu/application/api/controller/UserController.php:24]
+---------------------------------------------------------------
+[ 2019-03-05T17:17:09+08:00 ] 43.224.45.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.261326s] [吞吐率：3.83req/s] [内存消耗：344.93kb] [文件加载：68]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/d738d236b1890c46a4ee2dc59cf791e1',
+  'origin' => 'http://127.0.0.1:14652',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0017iBGz1OCLSb0wtfIz1zjiGz17iBGF',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-03-05T18:55:12+08:00 ] 185.53.91.31 GET 118.24.8.254/
+[运行时间：0.002595s] [吞吐率：385.36req/s] [内存消耗：344.36kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1',
+  'accept-language' => 'en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'deflate, gzip, identity',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-05T18:55:17+08:00 ] 185.53.91.31 GET 118.24.8.254/HNAP1/
+[运行时间：0.002396s] [吞吐率：417.39req/s] [内存消耗：310.78kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php

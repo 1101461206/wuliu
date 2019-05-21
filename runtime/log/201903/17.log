@@ -1,0 +1,100 @@
+---------------------------------------------------------------
+[ 2019-03-17T01:44:03+08:00 ] 216.218.206.67 GET 118.24.8.254/
+[运行时间：0.003000s] [吞吐率：333.33req/s] [内存消耗：343.36kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-17T02:20:54+08:00 ] 139.162.113.204 GET 118.24.8.254/
+[运行时间：0.003453s] [吞吐率：289.60req/s] [内存消耗：343.70kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'HTTP Banner Detection (https://security.ipip.net)',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-17T02:51:11+08:00 ] 162.243.141.7 GET 118.24.8.254/
+[运行时间：0.069600s] [吞吐率：14.37req/s] [内存消耗：343.73kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-17T08:55:18+08:00 ] 60.191.38.78 GET 118.24.8.254:443/
+[运行时间：0.337553s] [吞吐率：2.96req/s] [内存消耗：343.98kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '118.24.8.254:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-03-17T14:22:50+08:00 ] 121.228.215.233 GET kyfw.12306.cn/otn/login/init
+[运行时间：0.044803s] [吞吐率：22.32req/s] [内存消耗：310.78kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-17T14:22:50+08:00 ] 114.216.160.62 POST epay.12306.cn/pay/payGateway
+[运行时间：0.080783s] [吞吐率：12.38req/s] [内存消耗：310.73kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-17T14:23:41+08:00 ] 119.29.234.225 GET mobile.12306.cn/otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicketX&requestData=%5B%7B%22train_date%22%3A%2220190327%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%22d0eb9236acad63a72939f8ec77398299%22%2C%22device_no%22%3A%2293d947805f87f619%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220190317142340%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.1.9%22%7D%7D%5D&ts=1552803820963&sign=
+[运行时间：0.084347s] [吞吐率：11.86req/s] [内存消耗：310.80kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-17T14:23:41+08:00 ] 119.29.234.225 POST mobile.12306.cn/otsmobile/app/mgs/mgw.htm
+[运行时间：0.002871s] [吞吐率：348.31req/s] [内存消耗：309.13kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-17T14:23:41+08:00 ] 119.29.234.225 POST mobile.12306.cn/otsmobile/app/mgs/mgw.htm
+[运行时间：0.002806s] [吞吐率：356.36req/s] [内存消耗：309.13kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-17T14:23:41+08:00 ] 119.29.234.225 POST mobile.12306.cn/otsmobile/app/mgs/mgw.htm
+[运行时间：0.002739s] [吞吐率：365.07req/s] [内存消耗：309.13kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-17T14:23:41+08:00 ] 119.29.234.225 POST mobile.12306.cn/otsmobile/app/mgs/mgw.htm
+[运行时间：0.002073s] [吞吐率：482.38req/s] [内存消耗：309.13kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-03-17T14:23:42+08:00 ] 119.29.234.225 POST mobile.12306.cn/otsmobile/app/mgs/mgw.htm
+[运行时间：0.002176s] [吞吐率：459.55req/s] [内存消耗：309.13kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php

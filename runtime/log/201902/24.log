@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[ 2019-02-24T01:41:24+08:00 ] 184.105.139.68 GET 118.24.8.254/
+[运行时间：0.002382s] [吞吐率：419.85req/s] [内存消耗：343.36kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '118.24.8.254',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2019-02-24T13:02:37+08:00 ] 102.165.53.38 GET 118.24.8.254:443/
+[运行时间：0.325988s] [吞吐率：3.07req/s] [内存消耗：343.80kb] [文件加载：69]
+[ info ] [ LANG ] /www/wuliu/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'libwww-perl/6.36',
+  'host' => '118.24.8.254:443',
+  'connection' => 'TE, close',
+  'te' => 'deflate,gzip;q=0.3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wuliu/application/admin/view/login/index.html [ array (
+) ]
