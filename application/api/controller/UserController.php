@@ -164,6 +164,9 @@ class UserController extends ApiController
                             );
                            if($cmq==1){
                                $send_info=$this->Cmq('sendcmq',"ceshi",$msg);
+                               echo 2;
+                           }else{
+                               echo 1;
                            }
 
                         //   echo $send_info;
