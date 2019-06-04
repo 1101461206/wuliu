@@ -1,4 +1,4 @@
-<?php /*a:1:{s:75:"/Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html";i:1542349676;}*/ ?>
+<?php /*a:1:{s:75:"/Applications/MAMP/htdocs/web/wuliu/application/admin/view/login/index.html";i:1558411049;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +40,7 @@
 
                 </div>
                 <div class="am-form-group am-fr">
-                <img onclick="this.src='<?php echo captcha_src(); ?>?'+Math.random()" src="<?php echo captcha_src(); ?>" alt="captcha" />
+                  <img onclick="this.src='<?php echo captcha_src(); ?>?'+Math.random()" src="<?php echo captcha_src(); ?>" />
                 </div>
                 <div class="am-cf"></div>
                 <div class="am-form-group tpl-login-remember-me">
@@ -91,7 +91,7 @@
                 $.ajax({
                     type: 'POST',
                     data: this.form,
-                    url: "<?php echo url('portal/loginadmin/login'); ?>",
+                    url: "<?php echo url('portal/Loginadmin/login'); ?>",
                     dataType: "json",
                     success:function(data){
                         switch (data.code) {

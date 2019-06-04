@@ -108,20 +108,23 @@ class UserController extends ApiController
 
     public function ceshiAction(){
 
-    trace("dfdf",'error');
-
 //        Log::write('12312x','error');
-        $msg=array(
-            'model'=>'face',
-            'action'=>'',
-            'msg'=>array(
-                'openid'=>111,
-                "numam"=>"erer",
-            ),
-        );
+//        $msg=array(
+//            'model'=>'face',
+//            'action'=>'',
+//            'msg'=>array(
+//                'openid'=>111,
+//                "numam"=>"erer",
+//            ),
+//        );
   //     $msg=json_encode($msg);
 //        //$this->Cmq('sendcmq',"ceshi",$msg);
-      $this->Cmq("receive","ceshi",$msg);
+
+        $data=array('personid');
+
+        $this->GetPersonGroupInfo();
+     // $this->Cmq("receive","ceshi",$msg);
+
 
     }
 
@@ -131,6 +134,8 @@ class UserController extends ApiController
     public function imgAction(){
            $openid=request()->post('openid');
            $submit=request()->post('submit');
+           $type=request()->post('type');
+           $cmq=$this->request->post('cmq');
            //上传到本地
            $file=new file();
            $local_info=$file->file();
@@ -143,10 +148,10 @@ class UserController extends ApiController
                    if($check_img){
                        $in=Db::name('xiao_form_img')
                            ->where('id',$check_img['id'])
-                           ->data(['img'=>$local_img,'img_oos'=>""])
+                           ->data(['img'=>$local_img,'img_oos'=>"",'img_type'=>$type])
                            ->update();
                    }else{
-                       $data=['f_id'=>$check['id'],'img'=>$local_img];
+                       $data=['f_id'=>$check['id'],'img'=>$local_img,'img_type'=>$type];
                        $in=Db::name('xiao_form_img')->insert($data);
                    }
                    if($in){
@@ -157,8 +162,11 @@ class UserController extends ApiController
                                     'openid'=>$openid,
                                 ),
                             );
-                           $send_info=$this->Cmq('sendcmq',"ceshi",$msg);
-                           echo $send_info;
+                           if($cmq==1){
+                               $send_info=$this->Cmq('sendcmq',"ceshi",$msg);
+                           }
+
+                        //   echo $send_info;
                        }
                    }
                }
@@ -167,78 +175,6 @@ class UserController extends ApiController
 
            }
 
-    }
-
-
-
-
-//$cos_img=$this->CosImg($local_img);
-//if(empty($cos_img['error'])){
-//$cos_img_url=$cos_img['mag']['img_url'];
-
-//if($in){
-//
-//
-//}
-////$info=$this->DetectFace($cos_img_url,1);
-////  echo $info;
-//}else{
-//    echo $cos_img['error']['mag'];
-//}
-//
-
-
-    /**
-     * 上传到oss
-     */
-    public function CosImg($local_img){
-        $local_cos=new cos();
-        $cos_img=$local_cos->cos($local_img);
-        return $cos_img;
-
-    }
-    /**
-     * 人脸分析
-     */
-    public function DetectFace($cos_img,$type,$num){
-        //$face=new face();
-        $detectface=$this->face("DetectFace",$cos_img,$type,$num);
-        return $detectface;
-    }
-
-    /**
-     * 获取人员库列表
-     */
-    public function perAction(){
-        $info=$this->per('pool');
-        return $info;
-
-    }
-
-    /**
-     * 创建人员
-     */
-    public function CreatePerson($data){
-        $info=$this->per('CreatePerson',$data);
-        return $info;
-
-    }
-
-    /**
-     * 增加人员到人员库
-     */
-    public function CreateFace($data){
-        $info=$this->per('CreateFace',$data);
-        return $info;
-
-    }
-
-    /**
-     * 人脸搜索
-     */
-    public function SearchFaces($img_url,$type){
-        $info=$this->face("SearchFaces",$img_url,$type);
-        return $info;
     }
 
     /**
@@ -251,8 +187,4 @@ class UserController extends ApiController
 
     }
 
-    public function tx_DetectFace($msg){
-
-
-    }
 }

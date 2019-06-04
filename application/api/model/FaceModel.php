@@ -19,7 +19,9 @@ class FaceModel extends Model{
      * https://cloud.tencent.com/document/api/867/32800#1.-.E6.8E.A5.E5.8F.A3.E6.8F.8F.E8.BF.B0
      * https://cloud.tencent.com/document/api/867/32807
      * NeedFaceAttributes   是否需要返回人脸属性信息（FaceAttributesInfo）。0 为不需要返回，1 为需要返回。默认为 0。
-     *                      提取人脸属性信息较为耗时，如不需要人脸属性信息，建议关闭此项功能，加快人脸检测速度。
+     *  @type               提取人脸属性信息较为耗时，如不需要人脸属性信息，建议关闭此项功能，加快人脸检测速度。
+     * MaxFaceNum           最多处理的人脸数目。默认值为1（仅检测图片中面积最大的那张人脸），最大值为30。
+     *  @num                 此参数用于控制处理待检测图片中的人脸个数，值越小，处理速度越快。
      * NeedQualityDetection 是否开启质量检测。0 为关闭，1 为开启。默认为 0。
      * Image  图片 base64 数据。支持PNG、JPG、JPEG、BMP，不支持 GIF 图片。
      */
@@ -48,25 +50,36 @@ class FaceModel extends Model{
         $url1 = "https://iai.ap-chengdu.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
         //  exit;
         $http = new http();
-        $output = $http->https($url1);
-        $info = json_decode($output, true);
+        try{
+            $output = $http->https($url1);
+            $info = json_decode($output, true);
 //        echo "<pre>";
 //        var_dump($info);
 //        echo "<pre>";
 //        exit;
-        if($num==1 && $type==1){
-            $mag=$this->face_info($su,$info);
+            if(empty($info['Response']['Error'])){
+                if($num==1 && $type==1){
+                    $mag=$this->face_info($su,$info);
+                    return $mag;
+                }
+                //echo $info['mag']['text'];
+            }else{
+                trace($info,'error');
+                return false;
+            }
+
+        }catch (\Exception $e) {
+            trace($e,'error');
         }
 
-        //echo $info['mag']['text'];
-        return $mag;
     }
 
     /**
      * 人脸搜索
+     * https://cloud.tencent.com/document/api/867/32807#Candidate
      */
 
-    public function SearchFaces($img_url,$id){
+    public function SearchFaces($img_url,$id,$num){
         $signature=new signature();
         $rand_num=$signature->random(4);
         $time=time();
@@ -82,12 +95,36 @@ class FaceModel extends Model{
         );
         $url = "GETiai.ap-chengdu.tencentcloudapi.com/?";
         $Signa=$signature->tx_make($data,$this->secretKey,$url);
-        $url1="iai.ap-chengdu.tencentcloudapi.com/?".$Signa['par']."&Signature=".$Signa['signStr'];
-        echo $url1;
+        $url1="https://iai.ap-chengdu.tencentcloudapi.com/?".$Signa['par']."&Signature=".$Signa['signStr'];
         $http=new http();
-        $info=$http->https($url1);
-        echo $info;
-        exit;
+
+        try {
+            $info = $http->https($url1);
+            $info=json_decode($info, true);
+            echo "<pre>";
+            var_dump($info);
+            echo "<pre>";
+            $info_count=count($info['Response']['Results'][0]['Candidates']);
+            $score=array();
+            if($info_count>0){
+                foreach($info['Response']['Results'][0]['Candidates'] as $k=>$v){
+                    if($k==0){
+                        $score=$v;
+                    }else{
+                        if($v['Score']>$score['Score']){
+                            $score=$v;
+                        }
+                    }
+
+                }
+                return array('code'=>1,'mag'=>$score);
+            }else{
+                return array('code'=>0);
+            }
+
+        }catch (\Exception $e){
+            trace($e,'error');
+        }
 
         //return $info;
 
@@ -145,56 +182,58 @@ class FaceModel extends Model{
             if (empty($info['Error'])) {
                 if ($su['NeedFaceAttributes'] == 1) {
                     if ($sex > 50) {
-                        $text .= "性别:男\n";
+                        $text .= "性别:男,";
+                        $sex_info=1;
                     } else {
-                        $text .= "性别:女\n";
+                        $text .= "性别:女,";
+                        $sex_info=2;
                     }
-                    $text .= "年龄:" . $age . "\n";
+                    $text .= "年龄:" . $age . ",";
 
                     if ($expression < 50) {
-                        $text .= "笑容:正常\n";
+                        $text .= "笑容:正常,";
                     } elseif ($expression >= 50 && $expression < 100) {
-                        $text .= "笑容:微笑\n";
+                        $text .= "笑容:微笑,";
                     } else {
-                        $text .= "笑容:笑\n";
+                        $text .= "笑容:笑,";
                     }
 
                     if ($glass) {
-                        $text .= "有戴眼镜\n";
+                        $text .= "有戴眼镜,";
                     } else {
-                        $text .= "没有戴眼镜\n";
+                        $text .= "没有戴眼镜,";
                     }
-                    $text .= "个人魅力值:" . $beauty . "\n";
+                    $text .= "个人魅力值:" . $beauty . ",";
                     if ($hat) {
-                        $text .= "有带帽子无法分析\n";
+                        $text .= "有带帽子无法分析,";
                     } else {
                         $text .= "发型:";
                         switch ($lenth) {
                             case 0:
-                                $text .= "光头\n";
+                                $text .= "光头,";
                                 break;
                             case 1:
-                                $text .= "短发\n";
+                                $text .= "短发,";
                                 break;
                             case 2:
-                                $text .= "中发\n";
+                                $text .= "中发,";
                                 break;
                             case 3:
-                                $text .= "长发\n";
+                                $text .= "长发,";
                                 break;
                             case 4:
-                                $text .= "绑发\n";
+                                $text .= "绑发,";
                                 break;
                             default:
-                                $text .= "无法检测\n";
+                                $text .= "无法检测,";
                                 break;
                         }
                         switch ($bang) {
                             case 0:
-                                $text .= "有刘海\n";
+                                $text .= "有刘海,";
                                 break;
                             case 1:
-                                $text .= "无刘海\n";
+                                $text .= "无刘海,";
                         }
                     }
                 }
@@ -205,6 +244,8 @@ class FaceModel extends Model{
                         'NeedFaceAttributes' => $su['NeedFaceAttributes'],
                         'mag' => array(
                             'text' => $text,
+                            'sex'  =>$sex_info,
+                            'age'  =>$age,
                         ),
                     );
 
@@ -214,6 +255,8 @@ class FaceModel extends Model{
                         'code' => 2,
                         'mag' => array(
                             'text' => $text,
+                            'sex'  =>$sex_info,
+                            'age'  =>$age,
                         ),
                     );
 

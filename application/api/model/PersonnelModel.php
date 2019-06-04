@@ -61,6 +61,11 @@ class PersonnelModel extends ApiModel {
             'Timestamp'=>$time,
             'Nonce'=>$number,
             'SecretId'=>$this->ssecretId,
+            'Gender'=>$data['Gender'],
+            'PersonExDescriptionInfos.0.PersonExDescriptionIndex'=>0,
+            'PersonExDescriptionInfos.0.PersonExDescription'=>$data['info'],
+
+
         );
         $s_url="GETiai.ap-chengdu.tencentcloudapi.com/?";
         $sig=$this->signature('tx_make',array('data'=>$data_a,'key'=>$this->secretKey,'url'=>$s_url));
@@ -84,7 +89,7 @@ class PersonnelModel extends ApiModel {
             'Timestamp'=>$time,
             'Nonce'=>$number,
             'SecretId'=>$this->ssecretId,
-            'PersonId'=>"sds",
+            'PersonId'=>time(),
         );
         $url = "GETiai.ap-chengdu.tencentcloudapi.com/?";
 
@@ -94,5 +99,32 @@ class PersonnelModel extends ApiModel {
         var_dump($info);
 
     }
+
+
+    /**
+     * 获取人员归属信息
+     * https://cloud.tencent.com/document/api/867/32786
+     */
+
+    public function GetPersonGroupInfo($data)
+    {
+        $time=time();
+        $number=$this->signature('random',array('num'=>4));
+        $data_a=array(
+            'Action'=>"GetPersonGroupInfo",
+            'Version'=>"2018-03-01",
+            'Region'=>'',
+            'PersonId'=>$data['personId'],
+            'Timestamp'=>$time,
+            'Nonce'=>$number,
+            'SecretId'=>$this->ssecretId,
+            'PersonId'=>time(),
+        );
+        $url="GETiai.tencentcloudapi.com";
+        $signStr=$this->signature('tx_make',array('data'=>$data_a,'key'=>$this->secretKey,'url'=>$url));
+        $utl1="https://iai.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
+
+    }
+
 
 }

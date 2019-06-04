@@ -18,7 +18,7 @@ class SignatureModel extends Model{
         $par = implode("&", $uu);
         $url .= $par;
         $signStr = base64_encode(hash_hmac('sha1', $url,$key, true));
-        //$signStr=urlencode($signStr);
+        $signStr=urlencode($signStr);
         $info=array(
             'par'=>$par,
             'signStr'=>$signStr,

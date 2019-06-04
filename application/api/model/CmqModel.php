@@ -31,10 +31,12 @@ class CmqModel extends ApiModel {
             'Nonce'=>$num,
             'SecretId'=>$this->ssecretId,
         );
-        $data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
+        $data['url']="GETcmq-queue-cd.api.qcloud.com/v2/index.php?";
+        //$data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
         $data['key']=$this->secretKey;
         $Signature=$this->signature("tx_make",$data);
-        $url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+       // $url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+        $url="https://cmq-queue-cd.api.qcloud.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
         $info=$this->https($url);
         $info=json_decode($info,true);
         $info['msg']=$msg;
@@ -51,12 +53,10 @@ class CmqModel extends ApiModel {
 
 
     function receive($name,$msg){
-        echo date("Y-m-d H:i:s")."<br>";
         $sleep = 1000000 * rand(1, 3);
         $i=1;
         while ($i<2){
             usleep($sleep);//延迟执行
-            echo date("Y-m-d H:i:s");
             $time=time();
             $num=$this->signature('random',array('num'=>4));
             $data['data']=array(
@@ -67,15 +67,17 @@ class CmqModel extends ApiModel {
                 'Nonce'=>$num,
                 'SecretId'=>$this->ssecretId,
             );
-            $data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
+            $data['url']="GETcmq-queue-cd.api.qcloud.com/v2/index.php?";
+           // $data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
             $data['key']=$this->secretKey;
             $Signature=$this->signature("tx_make",$data);
-            $url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+            $url="https://cmq-queue-cd.api.qcloud.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+            //$url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
             $info=$this->https($url);
             $info=json_decode($info,true);
-            echo "<pre>";
-            var_dump($info);
-            echo "<pre>";
+//            echo "<pre>";
+//            var_dump($info);
+//            echo "<pre>";
             if($info['code']>0){
                 $sleep=2000000;
             }else{

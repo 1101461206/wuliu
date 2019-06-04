@@ -53,7 +53,7 @@ class CosModel extends Model{
             return $info;
 
         } catch (\Exception $e) {
-            echo($e);
+            trace($e,'info');
         }
 
     }
