@@ -143,7 +143,10 @@ class UserController extends ApiController
                $local_img=$local_info['mag']['img'];
                if(!empty($local_img)){
                    $check=Db::table('xiao_form')->where('openid',$openid)->find();
-                   $check_img=Db::table('xiao_form_img')->where('f_id',$check['id'])->find();
+                   $check_img=Db::table('xiao_form_img')
+                            ->where('f_id',$check['id'])
+                            ->where('img_type',$type)
+                            ->find();
                    trace($check_img,'mysql');
                    if($check_img){
                        $in=Db::name('xiao_form_img')
