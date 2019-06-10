@@ -54,6 +54,7 @@ class CmqModel extends ApiModel {
 
 // 读取消息
     function receive($name,$msg){
+
         $sleep = 1000000 * rand(1, 3);
         $i=1;
         while ($i<2){
@@ -81,24 +82,22 @@ class CmqModel extends ApiModel {
 //            echo "<pre>";
             if($info['code']>0){
                 $sleep=2000000;
+                trace($info,'error');
             }else{
                 $sleep=20000;
             }
 
-            trace($info,'info');
            //处理消息
             try{
                 if(!empty($info['msgBody'])){
     //                $this->action($info);
+                    $this->del('ceshi',$info['receiptHandle']);
 
                 }
-
             }catch (\Exception $e){
+                trace($e,'error');
 
             }
-
-
-            //$this->del('ceshi',$info['receiptHandle']);
             $i++;
 
         }
@@ -117,10 +116,12 @@ class CmqModel extends ApiModel {
             'SecretId'=>$this->ssecretId,
             'receiptHandle'=>$id,
         );
-        $data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
+       // $data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
+        $data['url']="GETcmq-queue-cd.api.qcloud.com/v2/index.php?";
         $data['key']=$this->secretKey;
         $Signature=$this->signature("tx_make",$data);
-        $url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+        $url="http://cmq-queue-cd.api.qcloud.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+        //$url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
         $info=$this->https($url);
         echo "<br>";
         echo "<pre>";

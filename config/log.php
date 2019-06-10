@@ -16,15 +16,15 @@ return [
     // 日志记录方式，内置 file socket 支持扩展
     'type'        => 'File',
     // 日志保存目录
-    'path'        => '',
+    'path'        => LOG_PATH,
     // 日志记录级别
-    'level'       => ['warning','info', 'notice', 'alert','error','sql'],
+    'level'       => ['warning','info', 'notice', 'alert'],
     // 单文件日志写入
     'single'      => false,
     // 独立日志级别
-    'apart_level' => [],
-    // 最大日志文件数量
-    'max_files'   => 200,
+    'apart_level' => ['error','sql'],
+    // 最大日志文件数量 设置后自动创建子文件夹会失效
+//    'max_files'   => 200,
     // 是否关闭日志写入
     'close'       => false,
     //单个日志文件的大小限制，超过后会自动记录到第二个文件
