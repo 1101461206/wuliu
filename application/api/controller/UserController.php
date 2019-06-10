@@ -76,13 +76,13 @@ class UserController extends ApiController
                     echo json_encode(0);
                 }else{
                     $in = Db::name('xiao_form')->insertGetId($data);
-                    if($in){
-                        echo 1;
-                    }
+//                    if($in){
+//                        echo 1;
+//                    }
                 }
                 break;
             case 2:
-                echo 3;
+              //  echo 3;
              //  $data=['name'=>$param['name'],'mobile'=>(int)$param['mobile'],'num'=>$param['num']];
                $up=Db::table('xiao_form')
                   ->where('openid',$param['openid'])
@@ -147,7 +147,6 @@ class UserController extends ApiController
                             ->where('f_id',$check['id'])
                             ->where('img_type',$type)
                             ->find();
-                   trace($check_img,'mysql');
                    if($check_img){
                        $in=Db::name('xiao_form_img')
                            ->where('id',$check_img['id'])
@@ -167,12 +166,14 @@ class UserController extends ApiController
                             );
                            if($cmq==1){
                                $send_info=$this->Cmq('sendcmq',"ceshi",$msg);
-                               echo 2;
-                           }else{
-                               echo 1;
+                               $send_info=json_decode($send_info,true);
+                               if($send_info['code']>0){
+                                   trace($msg,'error');
+                               }
                            }
-
                         //   echo $send_info;
+                       }else{
+                           echo 1;
                        }
                    }
                }
