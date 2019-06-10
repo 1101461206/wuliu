@@ -156,31 +156,36 @@ class UserController extends ApiController
                        $data=['f_id'=>$check['id'],'img'=>$local_img,'img_type'=>$type];
                        $in=Db::name('xiao_form_img')->insert($data);
                    }
-                   if($in){
-                       if($submit){
-                           $msg=array(
-                                'model'=>'form',
-                                'msg'=>array(
-                                    'openid'=>$openid,
-                                ),
-                            );
-                           if($cmq==1){
-                               $send_info=$this->Cmq('sendcmq',"ceshi",$msg);
-                               $send_info=json_decode($send_info,true);
-                               if($send_info['code']>0){
-                                   trace($msg,'error');
-                               }
-                           }
-                        //   echo $send_info;
-                       }else{
-                           echo 1;
-                       }
-                   }
+
                }
            }else{
+               if($type>2){
+                   echo 1;
+
+               }
                trace($local_info['error']['mag'],'error');
 
            }
+
+           if($submit){
+                $msg=array(
+                    'model'=>'form',
+                    'msg'=>array(
+                        'openid'=>$openid,
+                    ),
+                );
+                if($cmq==1){
+                    $send_info=$this->Cmq('sendcmq',"ceshi",$msg);
+                    $send_info=json_decode($send_info,true);
+                    if($send_info['code']>0){
+                        trace($msg,'error');
+                    }
+                }
+                //   echo $send_info;
+            }else{
+                echo 1;
+            }
+
 
     }
 
