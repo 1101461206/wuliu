@@ -176,13 +176,11 @@ class UserController extends ApiController
                         'openid'=>$openid,
                     ),
                 );
-             
                     $send_info=$this->Cmq('sendcmq',"ceshi",$msg);
                     $send_info=json_decode($send_info,true);
                     if($send_info['code']>0){
                         trace($msg,'error');
                     }
-                
                 echo 1; 
 		//  echo $send_info;
             }else{
