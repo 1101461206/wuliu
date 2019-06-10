@@ -109,7 +109,7 @@ class UserController extends ApiController
     public function ceshiAction(){
 
 //        Log::write('12312x','error');
-//        $msg=array(
+        $msg=array();
 //            'model'=>'face',
 //            'action'=>'',
 //            'msg'=>array(
@@ -122,8 +122,8 @@ class UserController extends ApiController
 
         $data=array('personid');
 
-        $this->GetPersonGroupInfo();
-     // $this->Cmq("receive","ceshi",$msg);
+       // $this->GetPersonGroupInfo();
+     $this->Cmq("receive","ceshi",$msg);
 
 
     }

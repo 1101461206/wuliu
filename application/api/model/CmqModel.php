@@ -17,6 +17,7 @@ class CmqModel extends ApiModel {
         parent::__construct();
     }
 
+//发送消息
     function sendcmq($name,$msg){
         $time=time();
         $num=$this->signature('random',array('num'=>4));
@@ -51,7 +52,7 @@ class CmqModel extends ApiModel {
         }
     }
 
-
+// 读取消息
     function receive($name,$msg){
         $sleep = 1000000 * rand(1, 3);
         $i=1;
@@ -88,7 +89,7 @@ class CmqModel extends ApiModel {
            //处理消息
             try{
                 if(!empty($info['msgBody'])){
-                    $this->action($info);
+    //                $this->action($info);
 
                 }
 
