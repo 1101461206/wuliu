@@ -15,28 +15,40 @@ class Tx_coqModel extends ApiModel
         $sql = "select i.*,t.name from xiao_form_img i,(select id,name from xiao_form where openid='$openid') t where i.f_id=t.id";
         $img = Db::query($sql);
         foreach ($img as $k => $v) {
+            /**是否上传到oss*/
+            if ($v['img'] && empty($v['img_oos'])) {
+                $coss = $this->CosImg($v['img']);
+                var_dump($coss);
+                exit;
+                if ($coss['code'] == 1) {
+                    $up = Db::table('xiao_form_img')
+                        ->where('id', $v['id'])
+                        ->data(['img_oos' => $coss['mag']['img_url']])
+                        ->update();
+//                    if ($up) {
+//                        $face = $this->DetectFace($coss['mag']['img_url'], 1, 1);
+//                        $oss_url = $coss['mag']['img_url'];
+//                    }
+                }else{
+                    trace($coss.'+++'.$v['id'],'error');
+                }
+            }else{
+                $oss_url = $v['img_oos'];
+            }
+            var_dump($oss_url);
+            exit;
             switch ($v['img_type']) {
                 //处理个人照
                 case 1:
-                    /**是否上传到oss*/
-                    if ($v['img'] && empty($v['img_oos'])) {
-                        $coss = $this->CosImg($v['img']);
-                        if ($coss['code'] == 1) {
-                            $up = Db::table('xiao_form_img')
-                                ->where('id', $v['id'])
-                                ->data(['img_oos' => $coss['mag']['img_url']])
-                                ->update();
-                            if ($up) {
-                                $face = $this->DetectFace($coss['mag']['img_url'], 1, 1);
-                                $oss_url = $coss['mag']['img_url'];
-                            }
-                        }else{
-                            trace($coss.'+++'.$v['id'],'error');
-                        }
-                    } else {
-                        $face = $this->DetectFace($v['img_oos'], 1, 1);
-                        $oss_url = $v['img_oos'];
-                    }
+                   //判断照片里的人数
+                    $analuze=$this->AnalyzeFace( $oss_url,"","");
+                    exit;
+
+
+
+
+                    $face = $this->DetectFace( $oss_url, 1, 1);
+                    $oss_url = $v['img_oos'];
                     /**获取上传图片人脸信息*/
                     if ($face) {
                         $face = json_decode($face, true);

@@ -15,6 +15,40 @@ class FaceModel extends Model{
     protected $ssecretId="AKIDLyJtIVYHpVxstfmfsb8JfgZLunQGjPgn";
     protected $secretKey="2ZpuBJGKX0JrHcR21mVlW3xlRSI4ezHL";
     protected $region="ap-chengdu";
+
+    /**
+     * https://cloud.tencent.com/document/api/867/32779
+     */
+    public function AnalyzeFace($img_url,$type,$num){
+        $signature = new signature();
+        $time = time();
+        $number = $signature->random(4);
+        $su = array(
+            'Action' => 'AnalyzeFace',
+            'Version' => '2017-03-12',
+            'Region' => 'ap-chengdu',
+            'Mode' => 0,
+            'Url' => $img_url,
+            'Timestamp' => $time,
+            'Nonce' => $number,
+            'SecretId' => $this->ssecretId,
+        );
+        $url = "GETiai.tencentcloudapi.com/?";
+        $signStr = $signature->tx_make($su, $this->secretKey, $url);
+        $url1 = "https:// iai.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
+        $http = new http();
+        $info=$http->https($url1);
+        var_dump($info);
+
+
+
+
+    }
+
+
+
+
+
     /**
      * https://cloud.tencent.com/document/api/867/32800#1.-.E6.8E.A5.E5.8F.A3.E6.8F.8F.E8.BF.B0
      * https://cloud.tencent.com/document/api/867/32807

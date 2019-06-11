@@ -90,8 +90,8 @@ class CmqModel extends ApiModel {
            //处理消息
             try{
                 if(!empty($info['msgBody'])){
-    //                $this->action($info);
-                    $this->del('ceshi',$info['receiptHandle']);
+                   $this->action($info);
+                  //  $this->del('ceshi',$info['receiptHandle']);
 
                 }
             }catch (\Exception $e){

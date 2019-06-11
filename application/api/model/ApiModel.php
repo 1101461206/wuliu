@@ -96,13 +96,20 @@ class ApiModel extends Model
      * 人脸识别方法调用
      */
 
-    public function face($action,$url,$type,$num){
+    public function face($action,$url,$type="",$num=""){
         $face=new face();
         $info=$face->$action($url,$type,$num);
         return $info;
 
     }
 
+    /**
+     * 人脸五官定位
+     */
+    public function AnalyzeFace($cos_img){
+        $detectface=$this->face("AnalyzeFace",$cos_img);
+        return $detectface;
+    }
 
 
     /**
