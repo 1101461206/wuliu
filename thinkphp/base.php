@@ -20,6 +20,8 @@ defined('RUNTIME_PATH') or define('RUNTIME_PATH', ROOT_PATH . '/runtime' . DS);
 
 defined('LOG_PATH') or define('LOG_PATH', RUNTIME_PATH . 'log' . DS);
 
+defined('IMG_PATH') or define('IMG_PATH', ROOT_PATH .'/public/uploads/');
+defined('THUMB_PATH') or define('THUMB_PATH', ROOT_PATH .'/public/thumb/');
 
 //var_dump(LOG_PATH);
 

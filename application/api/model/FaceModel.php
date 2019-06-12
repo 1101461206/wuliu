@@ -25,7 +25,7 @@ class FaceModel extends Model{
         $number = $signature->random(4);
         $su = array(
             'Action' => 'AnalyzeFace',
-            'Version' => '2017-03-12',
+            'Version' => '2018-03-01',
             'Region' => 'ap-chengdu',
             'Mode' => 0,
             'Url' => $img_url,
@@ -35,21 +35,30 @@ class FaceModel extends Model{
         );
         $url = "GETiai.tencentcloudapi.com/?";
         $signStr = $signature->tx_make($su, $this->secretKey, $url);
-        $url1 = "https:// iai.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
+        $url1 = "https://iai.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" .$signStr['signStr'];
         $http = new http();
         $info=$http->https($url1);
-        var_dump($info);
+        $info1=json_decode($info,true);
+        if(empty($info1['Response']['Error'])){
+            $num=count($info1['Response']['FaceShapeSet']);
+            $data=array(
+                'code'=>1,
+                'mag'=> $info,
+                'num'=>$num,
+            );
 
-
-
-
+        }else{
+            $data=array(
+                'code'=>2,
+                'mag'=>$info,
+            );
+        }
+        return $data;
     }
 
 
-
-
-
     /**
+     * 人脸检测
      * https://cloud.tencent.com/document/api/867/32800#1.-.E6.8E.A5.E5.8F.A3.E6.8F.8F.E8.BF.B0
      * https://cloud.tencent.com/document/api/867/32807
      * NeedFaceAttributes   是否需要返回人脸属性信息（FaceAttributesInfo）。0 为不需要返回，1 为需要返回。默认为 0。
@@ -135,9 +144,6 @@ class FaceModel extends Model{
         try {
             $info = $http->https($url1);
             $info=json_decode($info, true);
-            echo "<pre>";
-            var_dump($info);
-            echo "<pre>";
             $info_count=count($info['Response']['Results'][0]['Candidates']);
             $score=array();
             if($info_count>0){
@@ -149,7 +155,6 @@ class FaceModel extends Model{
                             $score=$v;
                         }
                     }
-
                 }
                 return array('code'=>1,'mag'=>$score);
             }else{
@@ -308,6 +313,47 @@ class FaceModel extends Model{
             }
             return json_encode($info);
 
+    }
+
+
+    /**
+     * 人脸对比
+     * https://cloud.tencent.com/document/product/867/32802
+     */
+
+    public function CompareFace($img_url,$type,$num){
+        $signature = new signature();
+        $time = time();
+        $number = $signature->random(4);
+        $su = array(
+            'Action' => 'CompareFace',
+            'Version'=> '2018-03-01',
+            'UrlA'=>$img_url['imga'],
+            'UrlB'=>$img_url['imgb'],
+            'Timestamp'=>$time,
+            'Nonce'=>$number,
+            'SecretId'=>$this->ssecretId,
+        );
+        $url = "GETiai.tencentcloudapi.com/?";
+        $signStr = $signature->tx_make($su, $this->secretKey, $url);
+        $url1 = "https://iai.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
+        $http = new http();
+        $info=$http->https($url1);
+        $info1=json_decode($info,true);
+        var_dump($info1);
+        if(empty($info1['Response']['Error'])){
+            $data=array(
+                'code'=>1,
+                'score'=>$info1['Response']['Score'],
+            );
+
+        }else{
+            $data=array(
+                'code'=>2,
+                'mag'=>$info,
+            );
+        }
+        return $data;
     }
 
 

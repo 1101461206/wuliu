@@ -8,6 +8,8 @@ use app\api\model\FaceModel as face;
 use app\api\model\Tx_coqModel as txcomq;
 use app\api\model\CosModel as cos;
 use app\api\model\PersonnelModel as per;
+use app\api\model\DiscerntextModel as dis;
+
 
 
 
@@ -129,6 +131,15 @@ class ApiModel extends Model
         return $info;
     }
 
+    /**
+     * 人脸对比
+     */
+     public function CompareFace($imga,$imgb){
+         $img_url=['imga'=>$imga,'imgb'=>$imgb];
+         $info=$this->face("CompareFace",$img_url,"","");
+         return $info;
+     }
+
 
     /**
      * 调用人员库
@@ -174,6 +185,15 @@ class ApiModel extends Model
     public function GetPersonGroupInfo($data){
         $info=$this->per('GetPersonGroupInfo',$data);
         return $info;
+
+    }
+
+    /**
+     * 智能识图
+     */
+    public function discern($action,$data){
+        $dis=new dis();
+        $info=$dis->$action($data);
 
     }
 
