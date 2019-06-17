@@ -66,7 +66,7 @@ class Tx_coqModel extends ApiModel
                         if($analuze['num']==1){
                             /**去人员库搜索*/
                             $searchFaces=$this->SearchFaces($oss_url,'form');
-                            if($searchFaces['code']>0){
+                            if($searchFaces['code']>0 && $searchFaces['mag']['Score']>=60){
                                 $img_info['personid']=$searchFaces['mag']['PersonId'];
                                 $img_info['faceid_resemble']=$searchFaces['mag']['FaceId'];
                                 $img_info['score']=$searchFaces['mag']['Score'];
