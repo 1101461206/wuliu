@@ -19,7 +19,7 @@
             <thead>
             <tr class="am-success">
                 <th class="table-type am-hide-sm-only am-text-center" width="3%">id</th>
-                <th class="table-date am-hide-sm-only am-text-center" width="3%">姓名</th>
+                <th class="table-date am-hide-sm-only am-text-center" width="8%">姓名</th>
                 <th class="table-date am-hide-sm-only am-text-center" width="5%">手机号</th>
                 <th class="table-date am-hide-sm-only am-text-center" width="10%">openid/unionid</th>
                 <th class="table-date am-hide-sm-only am-text-center" width="10%">上级</th>
@@ -42,7 +42,9 @@
                 <td class="am-text-left am-text-middle"></td>
                 <td class="am-text-left am-text-middle"></td>
                 <td class="am-text-left am-text-middle"></td>
-                <td class="am-text-left am-text-middle"></td>
+                <td class="am-text-left am-text-middle">
+                    <a class="am-btn  am-btn-secondary am-btn-xs" href=" {:url('admin/form/info',array('id'=>$row.id))}">详情</a>
+                </td>
 
 
 

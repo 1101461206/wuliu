@@ -38,18 +38,31 @@ class FormController extends AdminController
     }
 
 
-    /**会员列表*/
+    /**
+     * 会员列表
+     */
 
     public function huiyuan_listAction(){
 
         $list=$this->form->huiyuan_list();
-//        var_dump($list);
-//        exit;
         $page=$list->render();
         $this->assign('page',$page);
         $this->assign('list',$list);
         return $this->fetch();
     }
+
+
+
+    public function infoAction(){
+        $param=request()->param();
+        $info=$this->form->info($param);
+        $info_img=$this->form->info_img($param);
+        $this->assign('info',$info);
+        $this->assign('info_img',$info_img);
+
+        return $this->fetch();
+    }
+
 
 
 }

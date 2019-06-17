@@ -1,0 +1,93 @@
+{include file="header"}
+{include file="tabs"}
+
+<div class="admin-biaogelist">
+
+    <div class="listbiaoti am-cf">
+        <ul class="am-icon-user on"> 表单详细</ul>
+
+        <dl class="am-icon-home" style="float: right;">当前位置： 首页 >
+            <a href="{:url('admin/form/huiyuan_list')}">会员列表</a>>
+            <a href="#">表单详细</a></dl>
+    </div>
+
+
+
+    <div class="am-form am-g">
+        <div class="am-panel am-panel-default">
+            <div class="am-panel-bd">这是一个基本的面板组件。</div>
+        </div>
+      <table  class="am-table am-table-striped am-table-hover am-table-radius">
+          <tr>
+              <td class="am-success" width="20%" style="text-align: right">姓名：</td>
+              <td class="am-text-middle " width="28%" style="text-align: left">{$info.name}</td>
+              <td class="am-success " width="20%" style="text-align: right">openid：</td>
+              <td class=" am-text-middle" width="28%" style="text-align: left">{$info.openid}</td>
+          </tr>
+          <tr>
+              <td class="am-success" width="20%" style="text-align: right">昵称：</td>
+              <td class="am-text-middle " width="28%" style="text-align: left"></td>
+              <td class="am-success " width="20%" style="text-align: right">unionid：</td>
+              <td class=" am-text-middle" width="28%" style="text-align: left"></td>
+          </tr>
+          <tr>
+              <td class="am-success" width="20%" style="text-align: right">上级：</td>
+              <td class="am-text-middle " width="28%" style="text-align: left"></td>
+              <td class="am-success " width="20%" style="text-align: right">地址：</td>
+              <td class=" am-text-middle" width="28%" style="text-align: left"></td>
+          </tr>
+          <tr>
+              <td class="am-success" width="20%" style="text-align: right">手机号：</td>
+              <td class="am-text-middle " width="28%" style="text-align: left">{$info.mobile}</td>
+              <td class="am-success " width="20%" style="text-align: right">定位地址：</td>
+              <td class=" am-text-middle" width="28%" style="text-align: left"></td>
+          </tr>
+          {volist name="info_img" id="row"}
+          <tr>
+              <td class="am-success" width="20%" style="text-align: right">
+                  {switch $row.img_type}
+                    {case 1}个人照{/case}
+                    {case 2}舞队照{/case}
+                    {case 3}证书照{/case}
+                  {/switch}
+
+              </td>
+              <td class="am-text-middle " width="28%" style="text-align: left">
+                  <a href="{$row.img_oos}" target="_Blank">
+                      <img src="{$row.img_oos}" width="150" height="150">
+                  </a>
+
+              </td>
+              <td class="am-success " width="40%" style="text-align: left" colspan="2">
+                  {switch $row.img_type}
+                  {case 1}{$info.img_text}{/case}
+
+                  {/switch}
+
+                  {switch $row.status}
+                    {case 2}
+                         <p>结果：</p>
+                         <p>照片审核通过</p>
+                    {/case}
+                    {case 1}
+                         <p style="color:red">结果：</p>
+                         <p style="color:red">照片审核不通过</p>
+                         <p style="color:red">原因：{$row.status_info}</p>
+                         {if $row.img_type==1}
+                            <p>相似度：{$row.score}%</p>
+                            <p><a href="{$row.xiangsi}" target="_Blank">点击产看详细人员</a></p>
+                         {/if}
+                    {/case}
+
+                  {/switch}
+
+              </td>
+          </tr>
+          {/volist}
+      </table>
+
+
+    </div>
+
+
+    {include file="footer"}

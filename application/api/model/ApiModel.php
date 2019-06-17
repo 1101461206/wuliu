@@ -1,8 +1,8 @@
 <?php
 
 namespace app\api\model;
-use think\Model;
 use app\api\model\HttpModel as http;
+use think\Model;
 use app\api\model\SignatureModel as sig;
 use app\api\model\FaceModel as face;
 use app\api\model\Tx_coqModel as txcomq;
@@ -20,6 +20,7 @@ class ApiModel extends Model
     protected $ssecretId="AKIDLyJtIVYHpVxstfmfsb8JfgZLunQGjPgn";
     protected $secretKey="2ZpuBJGKX0JrHcR21mVlW3xlRSI4ezHL";
     protected $region="ap-chengdu";
+    protected $appid="1256168726";
 
 
     /**
@@ -31,6 +32,14 @@ class ApiModel extends Model
         $info=$http->https($url);
         return $info;
     }
+
+    public function https_tou($url,$data,$headers)
+    {
+        $http=new http();
+        $info=$http->https_tou($url,$data,$headers);
+        return $info;
+    }
+
 
     /**
      * @random  生成随机数
@@ -46,6 +55,12 @@ class ApiModel extends Model
             case "tx_make":
                 $info=$sig->tx_make($data['data'],$data['key'],$data['url']);
                 return $info;
+                break;
+            case "handwriting_stcstr":
+                $info=$sig->handwriting_stcstr($this->appid,$this->ssecretId,$this->secretKey);
+                return $info;
+                break;
+            default:
                 break;
         }
     }
@@ -86,9 +101,9 @@ class ApiModel extends Model
     /**
      * 上传到oss
      */
-    public function CosImg($local_img){
+    public function CosImg($local_img,$path){
         $local_cos=new cos();
-        $cos_img=$local_cos->cos($local_img);
+        $cos_img=$local_cos->cos($local_img,$path);
         return $cos_img;
 
     }
@@ -194,8 +209,11 @@ class ApiModel extends Model
     public function discern($action,$data){
         $dis=new dis();
         $info=$dis->$action($data);
+        return $info;
 
     }
+
+
 
 
 

@@ -15,12 +15,8 @@ class FileModel extends Model{
     public function file(){
 
         $file = request()->file('file');
-        var_dump($file);
-        exit;
         if ($file) {
             $info = $file->move($this->uploadPath);
-
-
             if ($info) {
                 $file = $info->getSaveName();
                $info=array(

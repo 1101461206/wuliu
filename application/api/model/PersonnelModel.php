@@ -64,8 +64,6 @@ class PersonnelModel extends ApiModel {
             'Gender'=>$data['Gender'],
             'PersonExDescriptionInfos.0.PersonExDescriptionIndex'=>0,
             'PersonExDescriptionInfos.0.PersonExDescription'=>$data['info'],
-
-
         );
         $s_url="GETiai.ap-chengdu.tencentcloudapi.com/?";
         $sig=$this->signature('tx_make',array('data'=>$data_a,'key'=>$this->secretKey,'url'=>$s_url));
@@ -92,7 +90,6 @@ class PersonnelModel extends ApiModel {
             'PersonId'=>time(),
         );
         $url = "GETiai.ap-chengdu.tencentcloudapi.com/?";
-
         $signStr=$this->signature('tx_make',array('data'=>$data_a,'key'=>$this->secretKey,'url'=>$url));
         $url1 = "https://iai.ap-chengdu.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
         $info=$this->https($url1);
@@ -114,15 +111,18 @@ class PersonnelModel extends ApiModel {
             'Action'=>"GetPersonGroupInfo",
             'Version'=>"2018-03-01",
             'Region'=>'',
-            'PersonId'=>$data['personId'],
+            'PersonId'=>$data['personid'],
             'Timestamp'=>$time,
             'Nonce'=>$number,
             'SecretId'=>$this->ssecretId,
-            'PersonId'=>time(),
         );
-        $url="GETiai.tencentcloudapi.com";
+
+        $url = "GETiai.ap-chengdu.tencentcloudapi.com/?";
         $signStr=$this->signature('tx_make',array('data'=>$data_a,'key'=>$this->secretKey,'url'=>$url));
-        $utl1="https://iai.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
+        $url1="https://iai.ap-chengdu.tencentcloudapi.com/?" . $signStr['par'] . "&Signature=" . $signStr['signStr'];
+        $info=$this->https($url1);
+        var_dump($info);
+        exit;
 
     }
 

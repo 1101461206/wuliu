@@ -1137,4 +1137,35 @@ abstract class Model implements \JsonSerializable, \ArrayAccess
 
         return call_user_func_array([$model->db(), $method], $args);
     }
+
+
+    /**
+     * 判断文件夹是否存在
+     * @file_path   文件夹路劲
+     * @type 1-判断是否存在  2-判断是否存在，不存在则创建
+     */
+
+    public function is_file($file_path,$type){
+        if(!is_dir($file_path)){
+            if($type==1){
+                return false;
+            }
+            if($type==2){
+                mkdir($file_path, 0777, true);
+                return true;
+            }
+        }else{
+            return true;
+        }
+    }
+
+    /**
+     * 判断文件大小
+     */
+
+    public function file_size($path){
+        return ceil(filesize($path)/1000);
+    }
+
+
 }

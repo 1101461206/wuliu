@@ -289,7 +289,7 @@ class FaceModel extends Model{
                     );
 
                 } else {
-                    $text .= "上传照片质量不佳，请选择清晰的照片上传";
+                    $text .= "上传照片质量不佳，会在一定程度上影响审核结果";
                     $info = array(
                         'code' => 2,
                         'mag' => array(
