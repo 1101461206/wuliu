@@ -80,7 +80,7 @@ class CmqModel extends ApiModel {
 //            echo "<pre>";
 //            var_dump($info);
 //            echo "<pre>";
-            echo date('Y-m-d H:i:s',$info['nextVisibleTime']);
+ //           echo date('Y-m-d H:i:s',$info['nextVisibleTime']);
             if($info['code']>0){
                 $sleep=2000000;
                 trace($info,'error');
@@ -92,14 +92,14 @@ class CmqModel extends ApiModel {
             try{
                 if(!empty($info['msgBody'])){
                    $this->action($info);
-                 //   $this->del('ceshi',$info['receiptHandle']);
+                    $this->del('ceshi',$info['receiptHandle']);
 
                 }
             }catch (\Exception $e){
                 trace($e,'error');
 
             }
-            $i++;
+          // $i++;
 
         }
 
