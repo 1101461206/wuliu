@@ -77,9 +77,9 @@ class CmqModel extends ApiModel {
             //$url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
             $info=$this->https($url);
             $info=json_decode($info,true);
-//            echo "<pre>";
-//            var_dump($info);
-//            echo "<pre>";
+            echo "<pre>";
+            var_dump($info);
+            echo "<pre>";
             if($info['code']>0){
                 $sleep=2000000;
                 trace($info,'error');
@@ -91,7 +91,7 @@ class CmqModel extends ApiModel {
             try{
                 if(!empty($info['msgBody'])){
                    $this->action($info);
-                  //  $this->del('ceshi',$info['receiptHandle']);
+                    $this->del('ceshi',$info['receiptHandle']);
 
                 }
             }catch (\Exception $e){
@@ -105,6 +105,7 @@ class CmqModel extends ApiModel {
     }
 
     function del($name,$id){
+        echo 1;
         $time=time();
         $num=$this->signature('random',array('num'=>4));
         $data['data']=array(
@@ -116,12 +117,23 @@ class CmqModel extends ApiModel {
             'SecretId'=>$this->ssecretId,
             'receiptHandle'=>$id,
         );
-       // $data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
-        $data['url']="GETcmq-queue-cd.api.qcloud.com/v2/index.php?";
+
+        $data['url']="GETcmq-queue-cd.api.tencentyun.com/v2/index.php?";
+       // $data['url']="GETcmq-queue-cd.api.qcloud.com/v2/index.php?";
         $data['key']=$this->secretKey;
+        echo "<br>";
+        echo "<pre>";
+        var_dump($data);
+        echo "<pre>";
+
         $Signature=$this->signature("tx_make",$data);
-        $url="http://cmq-queue-cd.api.qcloud.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
-        //$url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+        echo "<br>";
+        echo "<pre>";
+        var_dump($Signature);
+        echo "<pre>";
+       // $url="https://cmq-queue-cd.api.qcloud.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+        $url="http://cmq-queue-cd.api.tencentyun.com/v2/index.php?".$Signature['par']."&Signature=".$Signature['signStr'];
+       echo $url;
         $info=$this->https($url);
         echo "<br>";
         echo "<pre>";
