@@ -17,6 +17,7 @@ class FaceModel extends Model{
     protected $region="ap-chengdu";
 
     /**
+     * 五官定位，检测照片中人脸数量
      * https://cloud.tencent.com/document/api/867/32779
      */
     public function AnalyzeFace($img_url,$type,$num){
