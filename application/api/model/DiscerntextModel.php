@@ -37,10 +37,10 @@ class DiscerntextModel extends ApiModel {
         $url="https://ocr.tencentcloudapi.com/?".$signature['par']."&Signature=".$signature['signStr'];
         $info=$this->https($url);
         $info1=json_decode($info,true);
-//        echo "<pre>";
-//        var_dump($info1);
-//        echo "<pre>";
-//        exit;
+        //echo "<pre>";
+        //var_dump($info1);
+        //echo "<pre>";
+        //exit;
         if(empty($info1['Response']['Error'])){
 
         }else{

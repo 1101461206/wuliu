@@ -19,10 +19,14 @@ class CeshiController extends Controller
 //    }
 
     public function indexAction(){
-        $ims_url=array('img_url'=>"https://xiao-1256168726.cos.ap-chengdu.myqcloud.com/1.png");var_dump($ims_url);
+        $ims_url=array('img_url'=>"https://xiao-1256168726.cos.ap-chengdu.myqcloud.com/1.png");
         $api=new ApiModel();
-        $info=$api->discern('handwriting',$ims_url);
-        var_dump($info);
+        $info=$api->discern('GeneralBasicOCR',$ims_url);
+
+        echo "<pre>";
+	 var_dump($info,true);
+	echo "<pre>";
+    }
       //  return $this->fetch('order/index');
     }
-}
+
