@@ -43,12 +43,14 @@ class DiscerntextModel extends ApiModel
         //var_dump($info1);
         //echo "<pre>";
         //exit;
-        $data = array();
+        $data = array(
+            'mag'=>$info,
+        );
         if (empty($info1['Response']['Error'])) {
             $data['code'] = 1;
+
         } else {
             $data['code'] = 2;
-            $data['mag'] = $info;
         }
         return $data;
 
