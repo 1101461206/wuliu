@@ -20,7 +20,8 @@ class CeshiController extends Controller
 
     public function indexAction(){
         $ims_url=array('img_url'=>"https://xiao-1256168726.cos.ap-chengdu.myqcloud.com/1.png");var_dump($ims_url);
-        $info=ApiModel::discern('handwriting',$ims_url);
+        $api=new ApiModel();
+        $info=$api->discern('handwriting',$ims_url);
         var_dump($info);
       //  return $this->fetch('order/index');
     }
