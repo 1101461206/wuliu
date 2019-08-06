@@ -27,9 +27,9 @@ class CeshiController extends Controller
         $api = new ApiModel();
         $info = $api->discern('GeneralBasicOCR', $ims_url);
         $data=array(
-            'locatoin'=>$info;
+            'location'=>$info,
         );
-        $in = Db::name('xiao_form')->insertGetId($data);
+        $in = Db::name('xiao_form_img')->insertGetId($data);
         echo "<pre>";
         var_dump($info, true);
         echo "<pre>";
