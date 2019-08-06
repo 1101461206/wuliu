@@ -1,4 +1,4 @@
-<?php /*a:4:{s:50:"/www/wuliu/application/admin/view/index/index.html";i:1542698956;s:45:"/www/wuliu/application/admin/view/header.html";i:1550558382;s:43:"/www/wuliu/application/admin/view/tabs.html";i:1543284632;s:45:"/www/wuliu/application/admin/view/footer.html";i:1542700548;}*/ ?>
+<?php /*a:4:{s:50:"/www/wuliu/application/admin/view/index/index.html";i:1542698956;s:45:"/www/wuliu/application/admin/view/header.html";i:1550558382;s:43:"/www/wuliu/application/admin/view/tabs.html";i:1559618553;s:45:"/www/wuliu/application/admin/view/footer.html";i:1542700548;}*/ ?>
 <!doctype html>
 <html class="no-js">
 <head>
@@ -107,6 +107,14 @@
                 <li>会员推荐图</li>
                 <li>推荐列表</li>
             </ul>
+            <h3 class="am-icon-users"><em></em> <a href="#">表单信息</a></h3>
+            <ul>
+                <li><a href="<?php echo url('admin/form/huiyuan_list'); ?>">表单列表</a> </li>
+                <li><a>会员列表</a></li>
+                <li><a>自动审核设置</a></li>
+
+            </ul>
+
             <h3 class="am-icon-volume-up"><em></em> <a href="#">信息通知</a></h3>
             <ul>
                 <li>站内消息 /留言 </li>
@@ -115,6 +123,7 @@
                 <li>微信</li>
                 <li>客服</li>
             </ul>
+
             <h3 class="am-icon-gears"><em></em> <a href="#">系统设置</a></h3>
             <ul>
                 <li>数据备份</li>
