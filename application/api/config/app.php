@@ -16,6 +16,7 @@ return [
     'wx_qy_aeskey'=>'Xyemma4Bed6IuMm1rJ7HyXraKsTYSKjVKpWBN3mhUzD',
     'wx_qy_secret'=>'Nu9b60Xi0F7k2EjG7krVH4QO8LvIih7AODgpBTX3xxA',
     'wx_qy_id'=>'wx5788897e992e508d',
+    'wx_qy_corpid'=>'wwc9e12f4cc5c86bf5',
 
 
 
