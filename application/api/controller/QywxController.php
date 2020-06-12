@@ -25,8 +25,6 @@ class QywxController extends ApiController
         $echostr=request()->get('echostr');
         $nonce=request()->get('nonce');
         $wxcpt=new \WXBizMsgCrypt(config('wx_qy_token'),config('wx_qy_aeskey'),config('wx_qy_corpid'));
-        Log::write(config('wx_qy_corpid');
-	exit;
 	$sEchoStr="";
 //        //-----------------------测试数据----------------------------------
 //        $msg_signature="5c45ff5e21c57e6ad56bac8758b79b1d9ac89fd3";
@@ -38,10 +36,12 @@ class QywxController extends ApiController
         $errorcode=$wxcpt->VerifyURL($msg_signature,$timestamp,$nonce,$echostr,$sEchoStr);
          Log::write("验证信息".$errorcode);
 	if($errorcode == 0){
-            var_dump($sEchoStr);
+            echo $sEchoStr;
         }else{
            Log::write("验证错误");
         }
+	$post_data=request()->post();
+	Log:write($post_data);
 
     }
 
