@@ -14,6 +14,7 @@ use app\api\model\CosModel as cos;
 use app\api\model\FaceModel as face;
 use app\api\model\HttpModel as http;
 use app\api\model\PersonnelModel as per;
+use extend\wx\weworkapi\callnack\WXNizMsgCrypt as wxapi;
 
 
 class QywxController extends ApiController
@@ -21,7 +22,7 @@ class QywxController extends ApiController
 
     public function indexAction()
     {
-        echo 1;
+        Log::write($this->request->param('msg_signature')."-----1234321");
 
     }
 
