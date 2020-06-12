@@ -10,11 +10,9 @@ use think\facade\Config;
 use think\facade\Log;
 use think\helper;
 use think\Db;
-use app\api\model\CosModel as cos;
-use app\api\model\FaceModel as face;
-use app\api\model\HttpModel as http;
-use app\api\model\PersonnelModel as per;
-use extend\wx\weworkapi\callnack\WXNizMsgCrypt as wxapi;
+include_once ROOT_PATH."/extend/wx/weworkapi/callback/WXBizMsgCrypt.php";
+
+//use WXBizMsgCrypt as wxapi;
 
 
 class QywxController extends ApiController
@@ -22,8 +20,29 @@ class QywxController extends ApiController
 
     public function indexAction()
     {
+
         Log::write(request()->get('msg_signature')."-----1234321");
-	Log::write('fdfdfd');
+        $msg_signature=request()->get('msg_signature');
+        $timestamp=request()->get('timestamp');
+        $echostr=request()->get('echostr');
+        $nonce=request()->get('nonce');
+
+        $wxcpt=new \WXBizMsgCrypt(config('wx_qy_token'),config('wx_qy_aeskey'),config('wx_qy_id'));
+        $sEchoStr="";
+//        //-----------------------测试数据----------------------------------
+//        $msg_signature="5c45ff5e21c57e6ad56bac8758b79b1d9ac89fd3";
+//        $timestamp="1409659589";
+//        $echostr="P9nAzCzyDtyTWESHep1vC5X9xho/qYX3Zpb4yKa9SKld1DsH3Iyt3tP3zNdtp+4RPcs8TgAE7OaBO+FZXvnaqQ==";
+//        $nonce="263014780";
+//        $wxcpt=new \WXBizMsgCrypt("QDG6eK","jWmYm7qr5nMoAUwZRjGtBxmz3KA1tkAj3ykkR6q2B2C","wx5823bf96d3bd56c7");
+//        //----------------------------------------------------------------
+        $errorcode=$wxcpt->VerifyURL($msg_signature,$timestamp,$nonce,$echostr,$sEchoStr);
+        if($errorcode == 0){
+            var_dump($sEchoStr);
+        }else{
+           Log::write("验证错误");
+        }
+
     }
 
 
