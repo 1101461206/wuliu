@@ -1,0 +1,34 @@
+<?php
+
+namespace app\api\controller;
+
+use app\api\model\FileModel as file;
+use think\App;
+use think\Controller;
+use think\Request;
+use think\facade\Config;
+use think\facade\Log;
+use think\helper;
+use think\Db;
+use app\api\model\CosModel as cos;
+use app\api\model\FaceModel as face;
+use app\api\model\HttpModel as http;
+use app\api\model\PersonnelModel as per;
+
+
+class QywxController extends ApiController
+{
+
+    public function indexAction()
+    {
+        echo 1;
+
+    }
+
+
+
+
+
+
+
+}
