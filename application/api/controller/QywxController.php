@@ -22,8 +22,8 @@ class QywxController extends ApiController
 
     public function indexAction()
     {
-        Log::write($this->request->param('msg_signature')."-----1234321");
-
+        Log::write(request()->get('msg_signature')."-----1234321");
+	Log::write('fdfdfd');
     }
 
 
