@@ -10,7 +10,7 @@ use think\facade\Config;
 use think\facade\Log;
 use think\helper;
 use think\Db;
-use app\api\model\Wx_qycoqModel as wx;
+use app\api\model\Wx_qyModel as wx;
 
 //use WXBizMsgCrypt as wxapi;
 
@@ -25,8 +25,14 @@ class QywxController extends ApiController
         $echostr=request()->get('echostr');
         $nonce=request()->get('nonce');
         $wx=new wx();
-        #$verifyurl=$wx->verify_url($msg_signature,$timestamp,$echostr,$nonce);
-
+        $verifyurl=$wx->verify_url($msg_signature,$timestamp,$echostr,$nonce);
+	if(request()->isPost()){
+		Log::write("是Post");
+         }	
+	
+	if(request()->isGet()){
+		Log::write("是GET");
+	}	
         $data=$this->request->post();
         Log::write($data);
 
