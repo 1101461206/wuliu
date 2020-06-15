@@ -26,11 +26,19 @@ class Wx_qycoqModel extends ApiModel
         Log::write("验证信息".$errorcode);
         if($errorcode == 0){
             echo $sEchoStr;
+            exit;
         }else{
-            Log::write("验证错误");
+            Log::write("验证错误".$errorcode);
         }
     }
 
+
+    function xml_decrypt($msg_signature,$timestamp,$nonce,$data){
+        $wxcpt=new \WXBizMsgCrypt(config('wx_qy_token'),config('wx_qy_aeskey'),config('wx_qy_corpid'));
+        $sMsg="";
+        $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
+        Log::write("解密：".$err_code);
+    }
 
 
 

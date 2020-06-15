@@ -24,17 +24,20 @@ class QywxController extends ApiController
         $timestamp=request()->get('timestamp');
         $echostr=request()->get('echostr');
         $nonce=request()->get('nonce');
-        $wx=new wx();
-        $verifyurl=$wx->verify_url($msg_signature,$timestamp,$echostr,$nonce);
-	if(request()->isPost()){
-		Log::write("是Post");
-         }	
-	
-	if(request()->isGet()){
-		Log::write("是GET");
-	}	
-        $data=$this->request->post();
-        Log::write($data);
+        if(!empty($echostr)){
+            $wx=new wx();
+            $verifyurl=$wx->verify_url($msg_signature,$timestamp,$echostr,$nonce);
+        }
+
+        if($_SERVER['REQUEST_METHOD'] === 'POST' ){
+            $sReqData = file_get_contents("php://input");
+            $wx=new wx();
+            $verifyurl=$wx->xml_decrypt($msg_signature,$timestamp,$nonce,$sReqData);
+
+        }
+
+
+
 
 
 
