@@ -38,8 +38,8 @@ class Wx_qyModel extends ApiModel
         $wxcpt=new \WXBizMsgCrypt(config('wx_qy_token'),config('wx_qy_aeskey'),config('wx_qy_corpid'));
         $sMsg="";
         $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
-	$xml_data=isimplexml_load_string($message, 'SimpleXMLElement', LIBXML_NOCDATA);	
-	 Log::write("解密：".$xml_data->AgentID);
+	$xml_data=simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);	
+	 Log::write("解密：".$xml_data->ToUserName);
     }
 
 
