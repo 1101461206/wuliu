@@ -34,7 +34,7 @@ class Wx_qyModel extends ApiModel
 
 
     function xml_decrypt($msg_signature,$timestamp,$nonce,$data){
-	Log:write('1111');
+	    Log::write('1111');
         $wxcpt=new \WXBizMsgCrypt(config('wx_qy_token'),config('wx_qy_aeskey'),config('wx_qy_corpid'));
         $sMsg="";
         $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
