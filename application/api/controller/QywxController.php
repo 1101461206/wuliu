@@ -31,7 +31,7 @@ class QywxController extends ApiController
         }
 	if(request()->isPost()){
             $sReqData = file_get_contents("php://input");
-            $verifyurl=$wx->xml_decrypt($msg_signature,$timestamp,$nonce,$sReqData);
+            $data=$wx->xml_decrypt($msg_signature,$timestamp,$nonce,$sReqData);
 
         }
 
