@@ -34,12 +34,21 @@ class Wx_qyModel extends ApiModel
 
 
     function xml_decrypt($msg_signature,$timestamp,$nonce,$data){
-	    Log::write('22224444444444');
         $wxcpt=new \WXBizMsgCrypt(config('wx_qy_token'),config('wx_qy_aeskey'),config('wx_qy_corpid'));
-        $sMsg="";
-        $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
-	$xml_data=simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);	
-	 Log::write("解密：".$xml_data->ToUserName);
+        $xml_info=simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+        if($xml_info->ToUserName==config('wx_qy_corpid')){
+            $sMsg="";
+            $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
+            $xml_data=simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);
+            $xmljson= json_encode($xml_data );//将对象转换个JSON
+            $xmlarray=json_decode($xmljson,true);//将json转换成数组
+
+            Log::write("解密：");
+            Log::write($xmlarray);
+        }
+
+
+
     }
 
 
