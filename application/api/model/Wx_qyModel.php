@@ -9,7 +9,7 @@ use think\Db;
 include_once ROOT_PATH."/extend/wx/weworkapi/callback/WXBizMsgCrypt.php";
 
 
-class Wx_qycoqModel extends ApiModel
+class Wx_qyModel extends ApiModel
 {
     function verify_url($msg_signature,$timestamp,$echostr,$nonce){
 
@@ -34,6 +34,7 @@ class Wx_qycoqModel extends ApiModel
 
 
     function xml_decrypt($msg_signature,$timestamp,$nonce,$data){
+	Log:write('1111');
         $wxcpt=new \WXBizMsgCrypt(config('wx_qy_token'),config('wx_qy_aeskey'),config('wx_qy_corpid'));
         $sMsg="";
         $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
