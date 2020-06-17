@@ -18,11 +18,11 @@ return [
     // 日志保存目录
     'path'        => LOG_PATH,
     // 日志记录级别
-    'level'       => ['warning','info', 'notice', 'alert'],
+    'level'       => ['warning','info','notice','alert','error','sql'],
     // 单文件日志写入
     'single'      => false,
     // 独立日志级别
-    'apart_level' => ['error','sql'],
+    'apart_level' => ['error','sql','notice'],
     // 最大日志文件数量 设置后自动创建子文件夹会失效
 //    'max_files'   => 200,
     // 是否关闭日志写入

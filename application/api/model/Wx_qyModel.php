@@ -42,9 +42,11 @@ class Wx_qyModel extends ApiModel
             $xml_data=simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);
             $xmljson= json_encode($xml_data );//将对象转换个JSON
             $xmlarray=json_decode($xmljson,true);//将json转换成数组
-
+	  
             Log::write("解密：");
             Log::write($xmlarray);
+	    Log::write($xmlarray,'notice');
+                echo "success";
         }
 
 
