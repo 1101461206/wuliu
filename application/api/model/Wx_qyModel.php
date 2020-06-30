@@ -45,12 +45,12 @@ class Wx_qyModel extends ApiModel
             $sMsg = "";
             $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
             Log::write('返回解密1：' . $sMsg, 'notice');
-         //   $xml_data = simplexml_load_string($sMsg,'SimpleXMLElement',LIBXML_NOCDATA);
-	   // $xml_json = json_encode($xml_data);//将对象转换个JSON
-           // $xml_array = json_decode($xml_json,true);//将json转换成数组
-           // Log::write('解码111:'.$xml_array, 'notice');
+            //   $xml_data = simplexml_load_string($sMsg,'SimpleXMLElement',LIBXML_NOCDATA);
+            // $xml_json = json_encode($xml_data);//将对象转换个JSON
+            // $xml_array = json_decode($xml_json,true);//将json转换成数组
+            // Log::write('解码111:'.$xml_array, 'notice');
             // return  $xmlarray;
-	$this->array2($sMsg);
+            $this->array2($sMsg);
 
         }
     }
@@ -62,25 +62,24 @@ class Wx_qyModel extends ApiModel
     }
 
 
-
     function array2($data)
     {
-	 $xml_data = simplexml_load_string($data,'SimpleXMLElement',LIBXML_NOCDATA);
-         $xml_json = json_encode($xml_data);//将对象转换个JSON
-         $xml_array = json_decode($xml_json,true);//将json转换成数组
-	Log::write('解码111:'.$xml_array, 'notice');
-     }
+        $xml_data = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+        $xml_json = json_encode($xml_data);//将对象转换个JSON
+        $xml_array = json_decode($xml_json, true);//将json转换成数组
+        Log::write('解码111:' . $xml_array, 'notice');
+    }
 
 
     //测试
-    function ceshi(){
-        $data="<xml><ToUserName><![CDATA[wwc9e12f4cc5c86bf5]]></ToUserName><FromUserName><![CDATA[sys]]></FromUserName><CreateTime>1593496954</CreateTime><MsgType><![CDATA[event]]></MsgType><Event><![CDATA[change_external_contact]]></Event><ChangeType><![CDATA[add_external_contact]]></ChangeType><UserID><![CDATA[ZhaoZiLong]]></UserID><ExternalUserID><![CDATA[wmk-T7DwAAiA_FKyeSAfcqqic_KNfLKA]]></ExternalUserID><WelcomeCode><![CDATA[2E-H1cuwevbSwlBZxiiwgP4wmX33w0Kv9-l1CH4T_as]]></WelcomeCode></xml>";
+    function ceshi()
+    {
+        $data = "<xml><ToUserName><![CDATA[wwc9e12f4cc5c86bf5]]></ToUserName><FromUserName><![CDATA[sys]]></FromUserName><CreateTime>1593496954</CreateTime><MsgType><![CDATA[event]]></MsgType><Event><![CDATA[change_external_contact]]></Event><ChangeType><![CDATA[add_external_contact]]></ChangeType><UserID><![CDATA[ZhaoZiLong]]></UserID><ExternalUserID><![CDATA[wmk-T7DwAAiA_FKyeSAfcqqic_KNfLKA]]></ExternalUserID><WelcomeCode><![CDATA[2E-H1cuwevbSwlBZxiiwgP4wmX33w0Kv9-l1CH4T_as]]></WelcomeCode></xml>";
         $xml_info = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
         $xmljson = json_encode($xml_info);//将对象转换个JSON
         $xmlarray = json_decode($xmljson, true);//将json转换成数组
-        var_dump($xmlarray);
+        Log::write('返回解密123122：' . $xmlarray, 'notice');
     }
-
 
 
 }
