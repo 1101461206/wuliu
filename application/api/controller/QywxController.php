@@ -32,6 +32,11 @@ class QywxController extends ApiController
 	if(request()->isPost()){
             $sReqData = file_get_contents("php://input");
             $data=$wx->xml_decrypt($msg_signature,$timestamp,$nonce,$sReqData);
+            Log::write('返回解密：'.$xmlarray, 'notice');
+            if($data['code']==0){
+                echo 200;
+                //$info=$wx->processing_messages($data);
+            }
 
         }
 
