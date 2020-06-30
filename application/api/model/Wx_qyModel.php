@@ -44,11 +44,16 @@ class Wx_qyModel extends ApiModel
         if ($xml_info->ToUserName == config('wx_qy_corpid')) {
             $sMsg = "";
             $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
+            Log::write('返回解密：'.$err_code, 'notice');
             if($err_code==0){
                 $xml_data = simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);
                 $xmljson = json_encode($xml_data);//将对象转换个JSON
                 $xmlarray = json_decode($xmljson, true);//将json转换成数组
-                return array('code'=>0,'info'=>$xmlarray);
+                $data=array(
+                    'code'=>0,
+                    'info'=>$xmlarray
+                );
+                return  $data;
             }else{
                 Log::write('解密错误：'.$err_code, 'notice');
                 return array('code'=>1);
