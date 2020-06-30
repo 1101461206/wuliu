@@ -45,12 +45,12 @@ class Wx_qyModel extends ApiModel
             $sMsg = "";
             $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
             Log::write('返回解密1：' . $sMsg, 'notice');
-            $xmldata = simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);
-            $xmljson = json_encode($xmldata);//将对象转换个JSON
-            $xmlarray = json_decode($xmljson, true);//将json转换成数组
-            Log::write("解码111：" . $xmldata, 'notice');
+         //   $xml_data = simplexml_load_string($sMsg,'SimpleXMLElement',LIBXML_NOCDATA);
+	   // $xml_json = json_encode($xml_data);//将对象转换个JSON
+           // $xml_array = json_decode($xml_json,true);//将json转换成数组
+           // Log::write('解码111:'.$xml_array, 'notice');
             // return  $xmlarray;
-
+	$this->array2($sMsg);
 
         }
     }
@@ -60,6 +60,16 @@ class Wx_qyModel extends ApiModel
     {
         // $_W['euserid']=$data['euserid'];
     }
+
+
+
+    function array2($data)
+    {
+	 $xml_data = simplexml_load_string($data,'SimpleXMLElement',LIBXML_NOCDATA);
+         $xml_json = json_encode($xml_data);//将对象转换个JSON
+         $xml_array = json_decode($xml_json,true);//将json转换成数组
+	Log::write('解码111:'.$xml_array, 'notice');
+     }
 
 
     //测试

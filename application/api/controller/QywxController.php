@@ -25,11 +25,8 @@ class QywxController extends ApiController
         $echostr=request()->get('echostr');
         $nonce=request()->get('nonce');
         $wx=new wx();
-        $wx->ceshi();
-        exit;
 
 	if(!empty($echostr)){
-	    Log::write("ddd");
             $verifyurl=$wx->verify_url($msg_signature,$timestamp,$echostr,$nonce);
         }
 	if(request()->isPost()){
