@@ -44,21 +44,33 @@ class Wx_qyModel extends ApiModel
         if ($xml_info->ToUserName == config('wx_qy_corpid')) {
             $sMsg = "";
             $err_code = $wxcpt->DecryptMsg($msg_signature, $timestamp, $nonce, $data, $sMsg);
-            Log::write('返回解密1：'.$sMsg, 'notice');
+            Log::write('返回解密1：' . $sMsg, 'notice');
             $xmldata = simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);
-	    $xmljson = json_encode($xmldata);//将对象转换个JSON
+            $xmljson = json_encode($xmldata);//将对象转换个JSON
             $xmlarray = json_decode($xmljson, true);//将json转换成数组
-	    Log::write("解码111：".$xmldata,'notice');
-               // return  $xmlarray;
-		
+            Log::write("解码111：" . $xmldata, 'notice');
+            // return  $xmlarray;
+
 
         }
     }
 
     //处理解密消息
-    function processing_messages($data){
-       // $_W['euserid']=$data['euserid'];
+    function processing_messages($data)
+    {
+        // $_W['euserid']=$data['euserid'];
     }
+
+
+    //测试
+    function ceshi(){
+        $data="<xml><ToUserName><![CDATA[wwc9e12f4cc5c86bf5]]></ToUserName><FromUserName><![CDATA[sys]]></FromUserName><CreateTime>1593496954</CreateTime><MsgType><![CDATA[event]]></MsgType><Event><![CDATA[change_external_contact]]></Event><ChangeType><![CDATA[add_external_contact]]></ChangeType><UserID><![CDATA[ZhaoZiLong]]></UserID><ExternalUserID><![CDATA[wmk-T7DwAAiA_FKyeSAfcqqic_KNfLKA]]></ExternalUserID><WelcomeCode><![CDATA[2E-H1cuwevbSwlBZxiiwgP4wmX33w0Kv9-l1CH4T_as]]></WelcomeCode></xml>";
+        $xml_info = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+        $xmljson = json_encode($xml_info);//将对象转换个JSON
+        $xmlarray = json_decode($xmljson, true);//将json转换成数组
+        var_dump($xmlarray);
+    }
+
 
 
 }
