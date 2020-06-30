@@ -50,7 +50,7 @@ class Wx_qyModel extends ApiModel
                 $xmlarray = json_decode($xmljson, true);//将json转换成数组
                 return array('code'=>0,'info'=>$xmlarray);
             }else{
-                Log::write('解密错误：'.$err_code, 'error');
+                Log::write('解密错误：'.$err_code, 'notice');
                 return array('code'=>1);
             }
 
