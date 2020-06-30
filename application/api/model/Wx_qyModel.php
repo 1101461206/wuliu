@@ -67,7 +67,7 @@ class Wx_qyModel extends ApiModel
         $xml_data = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
         $xml_json = json_encode($xml_data);//将对象转换个JSON
         $xml_array = json_decode($xml_json, true);//将json转换成数组
-        Log::write('解码111:' . $xml_array, 'notice');
+        Log::write('解码111:' . $xml_array['ToUserName'], 'notice');
     }
 
 
@@ -78,7 +78,7 @@ class Wx_qyModel extends ApiModel
         $xml_info = simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
         $xmljson = json_encode($xml_info);//将对象转换个JSON
         $xmlarray = json_decode($xmljson, true);//将json转换成数组
-        Log::write('返回解密123122：' . $xmlarray, 'notice');
+        Log::write('返回解密123122：' . $xmljson, 'notice');
     }
 
 
